@@ -1,0 +1,105 @@
+using UnityEngine;
+using UnityEditor;
+using System;
+using System.IO;
+
+public class BlendToBundlesConverter {
+
+	/*
+	 *	 "C:\Program Files\Unity\Editor\Unity.exe" -quit -batchmode -projectPath C:\Workspace\wikilibras-player\playercore_blend -executeMethod BlendToBundlesConverter.convert
+	 */
+	static void convert()
+	{
+		string[] args = System.Environment.GetCommandLineArgs();
+
+		bool foundKey = false;
+		string key = null;
+		string path = null;
+
+		foreach (string arg in args)
+		{
+			if (foundKey)
+			{
+				key = arg;
+				AssetDatabase.CreateFolder("Assets/BlendAssetBundles", key);
+				
+				if (foundPath) break;
+			}
+			else if (arg.Equals("-key", StringComparison.InvariantCultureIgnoreCase))
+			{
+				foundKey = true;
+				continue;
+			}
+
+			if (foundPath)
+			{
+				path = arg;
+			}
+		}
+
+		log("KEY: " + (foundKey ? key : "(not found)"));
+
+		string pathFrom = "C:/Workspace/wikilibras-player/playercore_blend/abs/animation.blend";
+		string pathTo = "C:/Workspace/wikilibras-player/playercore_blend/Assets/Blends/animation.blend";
+		File.Move(pathFrom, pathTo);*/
+
+		string path = "Assets/BlendAnimationsAssetBundles/";
+		//path += foundKey ? key + "/" : "-unknown/";
+
+		string[] assetsPaths = AssetDatabase.FindAssets("", new string[1] { "Assets/Blendss" });
+		
+		log("How many assets in Assets/Blends: " + assetsPaths.Length);
+
+		foreach (string assetPathID in assetsPaths)
+		{
+			string assetPath = AssetDatabase.GUIDToAssetPath(assetPathID);
+			log(assetPath);
+		
+			if ( ! assetPath.EndsWith(".blend"))
+				continue;
+
+			GameObject go = AssetDatabase.LoadAssetAtPath(
+				assetPath,
+				typeof(UnityEngine.Object)
+			) as GameObject;
+			
+			if (go != null)
+			{
+				log("Starting " + assetPath);
+				
+				AnimationClip[] clips = AnimationUtility.GetAnimationClips(go);
+
+				log(clips.Length + " animation clips found");
+				
+				if (clips.Length > 0)
+				{
+					foreach (AnimationClip clip in clips)
+					{
+						string filePath = path + clip.name;
+
+						log("Saving " + clip.name + " to " + filePath);
+
+						BuildPipeline.BuildAssetBundle(
+							clip as UnityEngine.Object,
+							new UnityEngine.Object[0] {},
+							filePath,
+							BuildAssetBundleOptions.CollectDependencies | BuildAssetBundleOptions.CompleteAssets,
+							BuildTarget.WebGL
+						);
+					}
+
+					break;
+				}
+			}
+			else log("Ignoring " + assetPath);
+		}
+	}
+	
+	private static int id = 1;
+
+	private static void log(string txt)
+	{
+		Debug.Log((id++) + ". " + txt);
+	}
+	
+}

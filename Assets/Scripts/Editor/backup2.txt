@@ -1,0 +1,170 @@
+using UnityEngine;
+using UnityEditor;
+using System;
+using System.IO;
+
+public class BlendToBundlesConverter {
+
+	private string blendsPath = "Assets/Blends";
+	private string bundlesPath = "Assets/Bundles";
+
+	private string fileText = "";
+
+	private bool hasSrc = false;
+	private string srcPath = null;
+	private bool hasDst = false;
+	private string dstPath = null;
+
+	static void saveLog()
+	{
+		if ( ! String.IsNullOrEmpty(fileText))
+		{
+			System.IO.StreamWriter file = new System.IO.StreamWriter(Application.dataPath + "/simple_log.txt");
+			file.WriteLine(fileText);
+			file.Close();
+		}
+	}
+
+	static void parseArguments()
+	{
+		string[] args = System.Environment.GetCommandLineArgs();
+
+		foreach (string arg in args)
+		{
+			if (hasSrc && srcPath == null)
+			{
+				srcPath = arg;
+				//AssetDatabase.CreateFolder("Assets/BlendAssetBundles", key);
+				
+				if (hasDst) break;
+			}
+			else if ( ! hasSrc && arg.Equals("-source", StringComparison.InvariantCultureIgnoreCase))
+			{
+				hasSrc = true;
+			}
+			else if (hasDst && dstPath == null)
+			{
+				dstPath = arg;
+
+				if (hasSrc) break;
+			}
+			else if ( ! hasDst && arg.Equals("-saveto", StringComparison.InvariantCultureIgnoreCase))
+			{
+				hasDst = true;
+			}
+		}
+	}
+
+	static void createFoldersAndMoveFiles()
+	{
+		string blendsPath = Application.dataPath + "/" + blendsPath;
+		log("BlendsPath: " + blendsPath);
+
+		if ( ! System.IO.Directory.Exists(Server.MapPath(blendsPath)))
+			AssetDatabase.CreateFolder("Assets", "Blends");
+
+		string bundlesPath = Application.dataPath + "/" + bundlesPath;
+		log("BundlesPath: " + bundlesPath);
+
+		if ( ! System.IO.Directory.Exists(Server.MapPath(bundlesPath)))
+			AssetDatabase.CreateFolder("Assets", "Bundles");
+		
+		if (hasSrc)
+		{
+			log("[PARAM] Source: " + srcPath);
+
+			if ( ! System.IO.Directory.Exists(Server.MapPath(srcPath)))
+			{
+				log("Source folder does not exist!");
+				saveLog();
+
+				Application.Quit();
+				System.Environment.Exit(1);
+			}
+
+			
+		}
+		if (hasDst)
+		{
+			log("[PARAM] SaveTo: " + dstPath);
+
+			if ( ! System.IO.Directory.Exists(Server.MapPath(dstPath)))
+				System.IO.Directory.CreateDirectory(Server.MapPath(dstPath));
+		}
+	}
+
+	/*
+	 *	 "C:\Program Files\Unity\Editor\Unity.exe" -quit -batchmode -projectPath C:\Workspace\wikilibras-player\playercore_blend -executeMethod BlendToBundlesConverter.convert
+	 */
+	static void convert()
+	{
+		parseArguments();
+		createFoldersAndMoveFiles();
+
+		/*string pathFrom = "C:/Workspace/wikilibras-player/playercore_blend/abs/animation.blend";
+		string pathTo = "C:/Workspace/wikilibras-player/playercore_blend/Assets/Blends/animation.blend";
+		File.Move(pathFrom, pathTo);*/
+
+		string path = "Assets/BlendToBundles/";
+		//path += foundKey ? key + "/" : "-unknown/";
+
+		string[] assetsPaths = AssetDatabase.FindAssets("", new string[1] { "Assets/Blendss" });
+		
+		log("How many assets in Assets/Blends: " + assetsPaths.Length);
+
+		foreach (string assetPathID in assetsPaths)
+		{
+			string assetPath = AssetDatabase.GUIDToAssetPath(assetPathID);
+			log(assetPath);
+		
+			if ( ! assetPath.EndsWith(".blend"))
+				continue;
+
+			GameObject go = AssetDatabase.LoadAssetAtPath(
+				assetPath,
+				typeof(UnityEngine.Object)
+			) as GameObject;
+			
+			if (go != null)
+			{
+				log("Starting " + assetPath);
+				
+				AnimationClip[] clips = AnimationUtility.GetAnimationClips(go);
+
+				log(clips.Length + " animation clips found");
+				
+				if (clips.Length > 0)
+				{
+					foreach (AnimationClip clip in clips)
+					{
+						string filePath = path + clip.name;
+
+						log("Saving " + clip.name + " to " + filePath);
+
+						BuildPipeline.BuildAssetBundle(
+							clip as UnityEngine.Object,
+							new UnityEngine.Object[0] {},
+							filePath,
+							BuildAssetBundleOptions.CollectDependencies | BuildAssetBundleOptions.CompleteAssets,
+							BuildTarget.WebGL
+						);
+					}
+
+					break;
+				}
+			}
+			else log("Ignoring " + assetPath);
+		}
+
+		saveLog();
+	}
+	
+	private static int id = 1;
+
+	private static void log(string txt)
+	{
+		Debug.Log((id++) + ". " + txt);
+		fileText += text + "\n";
+	}
+	
+}

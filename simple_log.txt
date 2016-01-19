@@ -1,0 +1,26 @@
+How many assets in Assets/Blends: 74
+How many assets in Assets/Blends: 74
+Assets/Blends/Luana Viana - Maio.blend
+Starting Assets/Blends/Luana Viana - Maio
+10 animation clips found
+Saving Default Take to Assets/Bundles/Default Take (Default Take (UnityEngine.AnimationClip))
+Default Take to Assets/Bundles/Default Take
+Saving _configMaoDir to Assets/Bundles/_configMaoDir (_configMaoDir (UnityEngine.AnimationClip))
+_configMaoDir to Assets/Bundles/_configMaoDir
+Saving PICA-PAU to Assets/Bundles/PICA-PAU (PICA-PAU (UnityEngine.AnimationClip))
+PICA-PAU to Assets/Bundles/PICA-PAU
+Saving PICHAR to Assets/Bundles/PICHAR (PICHAR (UnityEngine.AnimationClip))
+PICHAR to Assets/Bundles/PICHAR
+Saving PINH_O to Assets/Bundles/PINHÃO (PINH_O (UnityEngine.AnimationClip))
+PINH_O to Assets/Bundles/PINHÃO
+Saving PINTURA to Assets/Bundles/PINTURA (PINTURA (UnityEngine.AnimationClip))
+PINTURA to Assets/Bundles/PINTURA
+Saving PIQUI_ to Assets/Bundles/PIQUIÁ (PIQUI_ (UnityEngine.AnimationClip))
+PIQUI_ to Assets/Bundles/PIQUIÁ
+Saving PIRANHA to Assets/Bundles/PIRANHA (PIRANHA (UnityEngine.AnimationClip))
+PIRANHA to Assets/Bundles/PIRANHA
+Saving PIRARUCU to Assets/Bundles/PIRARUCU (PIRARUCU (UnityEngine.AnimationClip))
+PIRARUCU to Assets/Bundles/PIRARUCU
+Saving PITADA to Assets/Bundles/PITADA (PITADA (UnityEngine.AnimationClip))
+PITADA to Assets/Bundles/PITADA
+
