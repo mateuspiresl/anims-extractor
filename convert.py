@@ -1,13 +1,13 @@
 import os
+import subprocess
 from subprocess import call
-
-#call(['ls', '-l'])
 
 for dirname, dirnames, filenames in os.walk('Assets\Blends'):
 	# print path to all filenames.
 	for filename in filenames:
 		print(os.path.join(dirname, filename))
-		call(['blender', os.path.join(dirname, filename), '--background', '--python', 'aninames.py'])
+		if filename.endswith('.blend'):
+			call(['blender', os.path.join(dirname, filename), '--background', '--python', 'aninames.py'])
 
 print('Running Unity')
 call([
@@ -15,9 +15,12 @@ call([
 		'-quit',
 		'-batchmode',
 		'-logFile',
-		'C:\Workspace\wikilibras-player\log.txt',
+		'C:\Workspace\\babc\log.txt',
 		'-projectPath',
-		'C:\Workspace\wikilibras-player\playercore_blend',
+		'C:\Workspace\\babc',
 		'-executeMethod',
 		'BlendToBundlesConverter.convert'
 	])
+
+filepath = 'C:\Workspace\\babc\Assets\Bundles\\'
+subprocess.Popen('explorer /select,"' + filepath + '"')
