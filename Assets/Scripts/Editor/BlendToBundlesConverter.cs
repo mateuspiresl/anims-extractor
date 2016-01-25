@@ -1,6 +1,7 @@
 /*
  *	 "C:\Program Files\Unity\Editor\Unity.exe" -quit -batchmode -projectPath C:\Workspace\wikilibras-player\playercore_blend -executeMethod BlendToBundlesConverter.convert
  */
+#pragma warning disable
 
 using UnityEngine;
 using UnityEditor;
@@ -13,20 +14,22 @@ using System.Text.RegularExpressions;
 public class BlendToBundlesConverter {
 
 	private static string blendsPath = "Assets/Blends";
-	private static string bundlesPath = "Assets/Bundles";
 
-	private static string commonPath = "Assets/Bundles/Comuns";
-	private static string disambiguationPath = "Assets/Bundles/Desambiguação";
-	private static string compoundsPath = "Assets/Bundles/Compostos";
+	private static string commonPath = "Comuns";
+	private static string disambiguationPath = "Desambiguação";
+	private static string compoundsPath = "Compostos";
+	private static string checkPath = "Verificar";
 
-	private static string duplicatedCommonPath = "Assets/Bundles/_D_Comuns";
-	private static string duplicatedDisambiguationPath = "Assets/Bundles/_D_Desambiguação";
-	private static string duplicatedCompoundsPath = "Assets/Bundles/_D_Compostos";
+	private static string duplicatedCommonPath = "_D_Comuns";
+	private static string duplicatedDisambiguationPath = "_D_Desambiguação";
+	private static string duplicatedCompoundsPath = "_D_Compostos";
+	private static string duplicatedCheckPath = "_D_Verificar";
+
+	private static string[] targets = new String[] {
+		"STANDALONE", "ANDROID", "WEBGL", "IOS"
+	};
 
 	private static string fileText = "";
-
-	private static bool hasDst = false;
-	private static string dstPath = null;
 
 	private static void saveLog()
 	{
@@ -38,22 +41,18 @@ public class BlendToBundlesConverter {
 		}
 	}
 
-	private static void parseArguments()
+	private static void mkdir(string folder)
 	{
-		string[] args = System.Environment.GetCommandLineArgs();
+		if ( ! System.IO.Directory.Exists(Application.dataPath + "/" + folder))
+			Directory.CreateDirectory(Application.dataPath + "/" + folder);
+			//AssetDatabase.CreateFolder("Assets", folder);
+	}
 
-		foreach (string arg in args)
-		{
-			if (hasDst && dstPath == null)
-			{
-				dstPath = arg;
-				break;
-			}
-			else if ( ! hasDst && arg.Equals("-saveto", StringComparison.InvariantCultureIgnoreCase))
-			{
-				hasDst = true;
-			}
-		}
+	private static void mkdir(string path, string folder)
+	{
+		if ( ! System.IO.Directory.Exists(Application.dataPath + "/" + path + "/" + folder))
+			Directory.CreateDirectory(Application.dataPath + "/" + path + "/" + folder);
+			//AssetDatabase.CreateFolder("Assets" + "/" + path, folder);
 	}
 
 	private static void createFolders()
@@ -67,33 +66,26 @@ public class BlendToBundlesConverter {
 			System.Environment.Exit(1);
 		}
 
-		if ( ! System.IO.Directory.Exists(Application.dataPath + "/Bundles"))
-			AssetDatabase.CreateFolder("Assets", "Bundles");
+		mkdir("Anims");
+		mkdir("../Bundles");
 
-		if ( ! System.IO.Directory.Exists(Application.dataPath + "/Bundles/Comuns"))
-			AssetDatabase.CreateFolder("Assets/Bundles", "Comuns");
+		string[] folders = new String[] {
+			"Comuns", "Desambiguação", "Compostos"
+		};
 
-		if ( ! System.IO.Directory.Exists(Application.dataPath + "/Bundles/Desambiguação"))
-			AssetDatabase.CreateFolder("Assets/Bundles", "Desambiguação");
-
-		if ( ! System.IO.Directory.Exists(Application.dataPath + "/Bundles/Compostos"))
-			AssetDatabase.CreateFolder("Assets/Bundles", "Compostos");
-
-		if ( ! System.IO.Directory.Exists(Application.dataPath + "/Bundles/_D_Comuns"))
-			AssetDatabase.CreateFolder("Assets/Bundles", "_D_Comuns");
-
-		if ( ! System.IO.Directory.Exists(Application.dataPath + "/Bundles/_D_Desambiguação"))
-			AssetDatabase.CreateFolder("Assets/Bundles", "_D_Desambiguação");
-
-		if ( ! System.IO.Directory.Exists(Application.dataPath + "/Bundles/_D_Compostos"))
-			AssetDatabase.CreateFolder("Assets/Bundles", "_D_Compostos");
-
-		if (hasDst)
+		for (int t = 0; t < targets.Length; t++)
 		{
-			log("[PARAM] SaveTo: " + dstPath);
+			mkdir("../Bundles/" + targets[t]);
 
-			if ( ! System.IO.Directory.Exists(dstPath))
-					System.IO.Directory.CreateDirectory(dstPath);
+			for (int f = 0; f < folders.Length; f++)
+			{
+				string dir = "../Bundles/" + targets[t];
+
+				mkdir(dir + "/" + folders[f]);
+				mkdir(dir + "/_D_" + folders[f]);
+				mkdir(dir + "/" + folders[f] + "/Verificar");
+				mkdir(dir + "/_D_" + folders[f] + "/Verificar");
+			}
 		}
 	}
 
@@ -116,32 +108,27 @@ public class BlendToBundlesConverter {
 		return names;
 	}
 
-	private static string getFilePath(string name)
+	private static string getFilePath(string target, string name)
 	{
-		string folder;
-		bool desamb = name.Contains("(");
-		bool comp = name.Contains("_");
-
-		if (desamb)
+		string	folder, filePath;
+		bool	invalid = ! name.ToUpper().Equals(name);
+		
+		if (name.Contains("("))
 			folder = disambiguationPath;
-		else if (comp)
+		
+		else if (name.Contains("_"))
 			folder = compoundsPath;
+		
 		else
 			folder = commonPath;
 
-		string filePath = folder + "/" + name;
+		filePath = "Bundles/" + target + "/" + folder + (invalid ? "/Verificar/" : "/") + name;
 
 		int dID = 1;
-		while (File.Exists(Application.dataPath + "/../" + filePath))
+		while (File.Exists(Application.dataPath + filePath))
 		{
-			if (desamb)
-				folder = duplicatedDisambiguationPath;
-			else if (comp)
-				folder = duplicatedCompoundsPath;
-			else
-				folder = duplicatedCommonPath;
-
-			filePath = folder + "/" + name + (dID < 10 ? "_0" : "_") + dID;
+			filePath = "Bundles/" + target + "/_D_" + folder + (invalid ? "/Verificar/" : "/");
+			filePath += name + (dID < 10 ? "_0" : "_") + dID;
 			dID++;
 		}
 
@@ -150,7 +137,6 @@ public class BlendToBundlesConverter {
 
 	static void convert()
 	{
-		parseArguments();
 		createFolders();
 
 		string[] assetsPaths = AssetDatabase.FindAssets("", new string[1] { blendsPath });
@@ -185,6 +171,10 @@ public class BlendToBundlesConverter {
 			else
 				continue;
 
+			/*ModelImporter mi = AssetImporter.GetAtPath(assetPath) as ModelImporter;
+			mi.animationCompression = ModelImporterAnimationCompression.KeyframeReduction;
+			mi.SaveAndReimport();*/
+			
 			GameObject go = AssetDatabase.LoadAssetAtPath(
 				assetPath,
 				typeof(UnityEngine.Object)
@@ -202,30 +192,72 @@ public class BlendToBundlesConverter {
 				{
 					foreach (AnimationClip clip in clips)
 					{
-						string filePath = getFilePath((string) names.Dequeue());
+						AnimationClip newClip = new AnimationClip();
+						EditorUtility.CopySerialized(clip, newClip);
 
-						log("Saving " + clip.name + " to " + filePath + " (" + clip.ToString() + ")");
+						string path = "Assets/Anims/" + names.Dequeue() + ".anim";
+						log("Saving " + path);
 
-						BuildPipeline.BuildAssetBundle(
-							clip as UnityEngine.Object,
-							new UnityEngine.Object[0] {},
-							filePath,
-							BuildAssetBundleOptions.CollectDependencies | BuildAssetBundleOptions.CompleteAssets,
-							BuildTarget.WebGL
-						);
+						AssetDatabase.CreateAsset(newClip, path);
+						AssetDatabase.SaveAssets();
 					}
 				}
 			}
 			else log("Ignoring " + assetPath);
 		}
 
-		if (hasDst)
-		{
-			string srcPath = Application.dataPath + "/../" + bundlesPath;
-			File.Move(srcPath, dstPath);
-		}
-
+		buildBundles();
 		saveLog();
+	}
+
+	private static void buildBundles()
+	{
+		string[] assetsPaths = AssetDatabase.FindAssets("", new string[1] { "Assets/Anims" });
+		
+		log("How many assets in Assets/Anims: " + assetsPaths.Length);
+		
+		foreach (string assetPathID in assetsPaths){
+			
+			string assetPath = AssetDatabase.GUIDToAssetPath(assetPathID);
+			
+			UnityEngine.Object asset = AssetDatabase.LoadAssetAtPath(
+				assetPath,
+				(typeof(UnityEngine.Object))) as UnityEngine.Object;
+			
+			if (asset != null)
+			{
+				string[] tokens = assetPath.Split('/');
+				tokens = tokens[tokens.Length - 1].Split('.');
+				
+				log("Building " + assetPath + " to " + getFilePath("STANDALONE", tokens[0]));
+				
+				buildBundle(asset, getFilePath("STANDALONE", tokens[0]));
+				buildBundle(asset, getFilePath("ANDROID", tokens[0]), BuildTarget.Android);
+				buildBundle(asset, getFilePath("WEBGL", tokens[0]), BuildTarget.WebGL);
+				buildBundle(asset, getFilePath("IOS", tokens[0]), BuildTarget.iOS);
+			}
+			else log("Ignoring " + assetPath);
+		}
+	}
+
+	private static void buildBundle(UnityEngine.Object asset, string path, BuildTarget target)
+	{
+		BuildPipeline.BuildAssetBundle(
+			asset,
+			new UnityEngine.Object[0] {},
+			path,
+			BuildAssetBundleOptions.CollectDependencies | BuildAssetBundleOptions.CompleteAssets,
+			target
+		);
+	}
+	private static void buildBundle(UnityEngine.Object asset, string path)
+	{
+		BuildPipeline.BuildAssetBundle(
+			asset,
+			new UnityEngine.Object[0] {},
+			path,
+			BuildAssetBundleOptions.CollectDependencies | BuildAssetBundleOptions.CompleteAssets
+		);
 	}
 	
 	private static int id = 1;

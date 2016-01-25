@@ -1,18 +1,4 @@
-﻿/*************************************************
- # @Author: Mateus Pires
- # 
- # Creates MenuItem
- # Builds one asset bundle for each file
- #    inside Assets/ToBuild folder
- #
- # Attach this to nothing! It's EditorScript;
- # All bundles wil be found in
- # AssetBundles folder inside proj dir root
- #
- #Place it inside Editor Folder
- #
- *************************************************/
-#pragma warning disable
+﻿#pragma warning disable
 
 using UnityEngine;
 using UnityEditor;
