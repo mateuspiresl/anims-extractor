@@ -1,50 +1,155 @@
-How many assets in Assets/Blends: 157
-How many assets in Assets/Blends: 157
-Assets/Blends/Hozana Raquel - Maio.blend
-Assets/Blends/Luana Viana - Maio.blend
-Starting Assets/Blends/Hozana Raquel - Maio
-31 animation clips found
-Saving Default Take to Assets/Bundles/Comuns/Default Take (Default Take (UnityEngine.AnimationClip))
-Saving _configMaoDir to Assets/Bundles/Compostos/_configMaoDir (_configMaoDir (UnityEngine.AnimationClip))
-Saving MORFOLOGIA to Assets/Bundles/Comuns/MORFOLOGIA (MORFOLOGIA (UnityEngine.AnimationClip))
-Saving MORNO to Assets/Bundles/Comuns/MORNO (MORNO (UnityEngine.AnimationClip))
-Saving MORRO to Assets/Bundles/Comuns/MORRO (MORRO (UnityEngine.AnimationClip))
-Saving MOSQUITO to Assets/Bundles/Comuns/MOSQUITO (MOSQUITO (UnityEngine.AnimationClip))
-Saving MOSTARDA to Assets/Bundles/Comuns/MOSTARDA (MOSTARDA (UnityEngine.AnimationClip))
-Saving MOTEL to Assets/Bundles/Comuns/MOTEL (MOTEL (UnityEngine.AnimationClip))
-Saving MOTO-T_XI to Assets/Bundles/Comuns/MOTO-TÁXI (MOTO-T_XI (UnityEngine.AnimationClip))
-Saving MOTONIVELADORA to Assets/Bundles/Comuns/MOTONIVELADORA (MOTONIVELADORA (UnityEngine.AnimationClip))
-Saving MOTOR to Assets/Bundles/Comuns/MOTOR (MOTOR (UnityEngine.AnimationClip))
-Saving MOUSE to Assets/Bundles/Comuns/MOUSE (MOUSE (UnityEngine.AnimationClip))
-Saving MOVER to Assets/Bundles/Comuns/MOVER (MOVER (UnityEngine.AnimationClip))
-Saving MUDAR__APAR_NCIA_ to Assets/Bundles/Desambiguação/MUDAR_(APARÊNCIA) (MUDAR__APAR_NCIA_ (UnityEngine.AnimationClip))
-Saving MUDAR__ASSUNTO_ to Assets/Bundles/Desambiguação/MUDAR_(ASSUNTO) (MUDAR__ASSUNTO_ (UnityEngine.AnimationClip))
-Saving MUDAR__OPINI_O_ to Assets/Bundles/Desambiguação/MUDAR_(OPINIÃO) (MUDAR__OPINI_O_ (UnityEngine.AnimationClip))
-Saving MUDAR__TRANSF_RENCIA_LOCAL_ to Assets/Bundles/Desambiguação/MUDAR_(TRANSFÊRENCIA_LOCAL) (MUDAR__TRANSF_RENCIA_LOCAL_ (UnityEngine.AnimationClip))
-Saving MULATO to Assets/Bundles/Comuns/MULATO (MULATO (UnityEngine.AnimationClip))
-Saving MULETA to Assets/Bundles/Comuns/MULETA (MULETA (UnityEngine.AnimationClip))
-Saving MULTA to Assets/Bundles/Comuns/MULTA (MULTA (UnityEngine.AnimationClip))
-Saving MURAL to Assets/Bundles/Comuns/MURAL (MURAL (UnityEngine.AnimationClip))
-Saving MURICI to Assets/Bundles/Comuns/MURICI (MURICI (UnityEngine.AnimationClip))
-Saving MURO to Assets/Bundles/Comuns/MURO (MURO (UnityEngine.AnimationClip))
-Saving MUSCULA__O to Assets/Bundles/Comuns/MUSCULAÇÃO (MUSCULA__O (UnityEngine.AnimationClip))
-Saving MUSCULOSO to Assets/Bundles/Comuns/MUSCULOSO (MUSCULOSO (UnityEngine.AnimationClip))
-Saving MUSEU to Assets/Bundles/Comuns/MUSEU (MUSEU (UnityEngine.AnimationClip))
-Saving M_VEIS to Assets/Bundles/Comuns/MÓVEIS (M_VEIS (UnityEngine.AnimationClip))
-Saving M_SCULO to Assets/Bundles/Comuns/MÚSCULO (M_SCULO (UnityEngine.AnimationClip))
-Saving NABO to Assets/Bundles/Comuns/NABO (NABO (UnityEngine.AnimationClip))
-Saving NAJA to Assets/Bundles/Comuns/NAJA (NAJA (UnityEngine.AnimationClip))
-Saving V_RIAS to Assets/Bundles/Comuns/VÁRIAS (V_RIAS (UnityEngine.AnimationClip))
-Starting Assets/Blends/Luana Viana - Maio
-10 animation clips found
-Saving Default Take to Assets/Bundles/_D_Comuns/Default Take_01 (Default Take (UnityEngine.AnimationClip))
-Saving _configMaoDir to Assets/Bundles/_D_Compostos/_configMaoDir_01 (_configMaoDir (UnityEngine.AnimationClip))
-Saving PICA-PAU to Assets/Bundles/Comuns/PICA-PAU (PICA-PAU (UnityEngine.AnimationClip))
-Saving PICHAR to Assets/Bundles/Comuns/PICHAR (PICHAR (UnityEngine.AnimationClip))
-Saving PINH_O to Assets/Bundles/Comuns/PINHÃO (PINH_O (UnityEngine.AnimationClip))
-Saving PINTURA to Assets/Bundles/Comuns/PINTURA (PINTURA (UnityEngine.AnimationClip))
-Saving PIQUI_ to Assets/Bundles/Comuns/PIQUIÁ (PIQUI_ (UnityEngine.AnimationClip))
-Saving PIRANHA to Assets/Bundles/Comuns/PIRANHA (PIRANHA (UnityEngine.AnimationClip))
-Saving PIRARUCU to Assets/Bundles/Comuns/PIRARUCU (PIRARUCU (UnityEngine.AnimationClip))
-Saving PITADA to Assets/Bundles/Comuns/PITADA (PITADA (UnityEngine.AnimationClip))
+How many assets in Assets/Blends: 58
+How many assets in Assets/Blends: 58
+Assets/Blends/Matheus Fonseca - Sinais da Câmara.blend
+Starting Assets/Blends/Matheus Fonseca - Sinais da Câmara
+28 animation clips found
+Saving Assets/Anims/Default Take.anim
+Saving Assets/Anims/ADMINISTRAÇÃO_DIRETA.anim
+Saving Assets/Anims/ADMINISTRAÇÃO_INDIRETA.anim
+Saving Assets/Anims/ADVOCACIA-GERAL_DA_UNIÃO.anim
+Saving Assets/Anims/AGÊNCIA_CÂMARA.anim
+Saving Assets/Anims/ANO_FISCAL.anim
+Saving Assets/Anims/APRECIAÇÃO.anim
+Saving Assets/Anims/APRECIAÇÃO_DO_VETO.anim
+Saving Assets/Anims/APRESENTAR_UM_PROJETO_DE_LEI.anim
+Saving Assets/Anims/APROVAÇÃO_DE_UM_PROJETO.anim
+Saving Assets/Anims/ASSINATURA.anim
+Saving Assets/Anims/AUDITORIA.anim
+Saving Assets/Anims/AUDIÊNCIA_EM_COMISSÃO.anim
+Saving Assets/Anims/AUDIÊNCIA_PÚBLICA.anim
+Saving Assets/Anims/AUTOR_DA_PROPOSIÇÃO.anim
+Saving Assets/Anims/AUTÓGRAFOS.anim
+Saving Assets/Anims/AVULSOS.anim
+Saving Assets/Anims/BASE_ELEITORAL.anim
+Saving Assets/Anims/BLOCO_PARLAMENTAR.anim
+Saving Assets/Anims/CASA_INICIADORA.anim
+Saving Assets/Anims/CASA_LEGISLATIVA.anim
+Saving Assets/Anims/CASA_REVISORA.anim
+Saving Assets/Anims/CLÁUSULAS_PÉTREAS.anim
+Saving Assets/Anims/COLÉGIO_DE_LÍDERES.anim
+Saving Assets/Anims/CÂMARA.anim
+Saving Assets/Anims/CÂMARA_DOS_DEPUTADOS.anim
+Saving Assets/Anims/CÓDIGO_DE_ÉTICA.anim
+Saving Assets/Anims/PRIMEIRO_SIGNATÁRIO.anim
+How many assets in Assets/Anims: 120
+Building Assets/Anims/_configMaoDir.anim to Bundles/STANDALONE/Compostos/Verificar/_configMaoDir
+Building Assets/Anims/_configMaoEsq.anim to Bundles/STANDALONE/Compostos/Verificar/_configMaoEsq
+Building Assets/Anims/_orientacaoDir.anim to Bundles/STANDALONE/Compostos/Verificar/_orientacaoDir
+Building Assets/Anims/_orientacaoEsq.anim to Bundles/STANDALONE/Compostos/Verificar/_orientacaoEsq
+Building Assets/Anims/_pontoArticula_Dir.anim to Bundles/STANDALONE/Compostos/Verificar/_pontoArticula_Dir
+Building Assets/Anims/_pontoArticula_Esq.anim to Bundles/STANDALONE/Compostos/Verificar/_pontoArticula_Esq
+Building Assets/Anims/ADMINISTRAÇÃO_DIRETA.anim to Bundles/STANDALONE/Compostos/ADMINISTRAÇÃO_DIRETA
+Building Assets/Anims/ADMINISTRAÇÃO_INDIRETA.anim to Bundles/STANDALONE/Compostos/ADMINISTRAÇÃO_INDIRETA
+Building Assets/Anims/ADVOCACIA-GERAL_DA_UNIÃO.anim to Bundles/STANDALONE/Compostos/ADVOCACIA-GERAL_DA_UNIÃO
+Building Assets/Anims/AGÊNCIA_CÂMARA.anim to Bundles/STANDALONE/Compostos/AGÊNCIA_CÂMARA
+Building Assets/Anims/ANO_FISCAL.anim to Bundles/STANDALONE/Compostos/ANO_FISCAL
+Building Assets/Anims/APRECIAÇÃO.anim to Bundles/STANDALONE/Comuns/APRECIAÇÃO
+Building Assets/Anims/APRECIAÇÃO_DO_VETO.anim to Bundles/STANDALONE/Compostos/APRECIAÇÃO_DO_VETO
+Building Assets/Anims/APRESENTAR_UM_PROJETO_DE_LEI.anim to Bundles/STANDALONE/Compostos/APRESENTAR_UM_PROJETO_DE_LEI
+Building Assets/Anims/APROVAÇÃO_DE_UM_PROJETO.anim to Bundles/STANDALONE/Compostos/APROVAÇÃO_DE_UM_PROJETO
+Building Assets/Anims/ASSINATURA.anim to Bundles/STANDALONE/Comuns/ASSINATURA
+Building Assets/Anims/AUDITORIA.anim to Bundles/STANDALONE/Comuns/AUDITORIA
+Building Assets/Anims/AUDIÊNCIA_EM_COMISSÃO.anim to Bundles/STANDALONE/Compostos/AUDIÊNCIA_EM_COMISSÃO
+Building Assets/Anims/AUDIÊNCIA_PÚBLICA.anim to Bundles/STANDALONE/Compostos/AUDIÊNCIA_PÚBLICA
+Building Assets/Anims/AUTOR_DA_PROPOSIÇÃO.anim to Bundles/STANDALONE/Compostos/AUTOR_DA_PROPOSIÇÃO
+Building Assets/Anims/AUTÓGRAFOS.anim to Bundles/STANDALONE/Comuns/AUTÓGRAFOS
+Building Assets/Anims/AVULSOS.anim to Bundles/STANDALONE/Comuns/AVULSOS
+Building Assets/Anims/BASE_ELEITORAL.anim to Bundles/STANDALONE/Compostos/BASE_ELEITORAL
+Building Assets/Anims/BLOCO_PARLAMENTAR.anim to Bundles/STANDALONE/Compostos/BLOCO_PARLAMENTAR
+Building Assets/Anims/CASA_INICIADORA.anim to Bundles/STANDALONE/Compostos/CASA_INICIADORA
+Building Assets/Anims/CASA_LEGISLATIVA.anim to Bundles/STANDALONE/Compostos/CASA_LEGISLATIVA
+Building Assets/Anims/CASA_REVISORA.anim to Bundles/STANDALONE/Compostos/CASA_REVISORA
+Building Assets/Anims/CLÁUSULAS_PÉTREAS.anim to Bundles/STANDALONE/Compostos/CLÁUSULAS_PÉTREAS
+Building Assets/Anims/COLÉGIO_DE_LÍDERES.anim to Bundles/STANDALONE/Compostos/COLÉGIO_DE_LÍDERES
+Building Assets/Anims/COMISSÃO.anim to Bundles/STANDALONE/Comuns/COMISSÃO
+Building Assets/Anims/COMISSÃO_ESPECIAL.anim to Bundles/STANDALONE/Compostos/COMISSÃO_ESPECIAL
+Building Assets/Anims/COMISSÃO_EXTERNA.anim to Bundles/STANDALONE/Compostos/COMISSÃO_EXTERNA
+Building Assets/Anims/COMISSÃO_MISTA_DO_ORÇAMENTO.anim to Bundles/STANDALONE/Compostos/COMISSÃO_MISTA_DO_ORÇAMENTO
+Building Assets/Anims/COMISSÃO_PARLAMENTAR_CONJUNTA_DO_MERCOSUL.anim to Bundles/STANDALONE/Compostos/COMISSÃO_PARLAMENTAR_CONJUNTA_DO_MERCOSUL
+Building Assets/Anims/COMISSÃO_PARLAMENTAR_DE_INQUÉRITO_(CPI).anim to Bundles/STANDALONE/Desambiguação/COMISSÃO_PARLAMENTAR_DE_INQUÉRITO_(CPI)
+Building Assets/Anims/COMISSÃO_REPRESENTATIVA_DO_CONGRESSO_NACIONAL.anim to Bundles/STANDALONE/Compostos/COMISSÃO_REPRESENTATIVA_DO_CONGRESSO_NACIONAL
+Building Assets/Anims/COMISSÕES_DE_MÉRITO.anim to Bundles/STANDALONE/Compostos/COMISSÕES_DE_MÉRITO
+Building Assets/Anims/COMISSÕES_MISTA.anim to Bundles/STANDALONE/Compostos/COMISSÕES_MISTA
+Building Assets/Anims/COMISSÕES_PERMANENTES.anim to Bundles/STANDALONE/Compostos/COMISSÕES_PERMANENTES
+Building Assets/Anims/COMISSÕES_TEMPORÁRIAS.anim to Bundles/STANDALONE/Compostos/COMISSÕES_TEMPORÁRIAS
+Building Assets/Anims/CONGRESSO_NACIONAL.anim to Bundles/STANDALONE/Compostos/CONGRESSO_NACIONAL
+Building Assets/Anims/CONSELHO_DE_ÉTICA_E_DECORO_PARLAMENTAR.anim to Bundles/STANDALONE/Compostos/CONSELHO_DE_ÉTICA_E_DECORO_PARLAMENTAR
+Building Assets/Anims/CONSTITUINTE_ORIGINÁRIO.anim to Bundles/STANDALONE/Compostos/CONSTITUINTE_ORIGINÁRIO
+Building Assets/Anims/CONSULTORES.anim to Bundles/STANDALONE/Comuns/CONSULTORES
+Building Assets/Anims/CONSULTORIA_DE_ORÇAMENTO_E_FISCALIZAÇÃO_FINANCEIRA.anim to Bundles/STANDALONE/Compostos/CONSULTORIA_DE_ORÇAMENTO_E_FISCALIZAÇÃO_FINANCEIRA
+Building Assets/Anims/CORREGEDOR.anim to Bundles/STANDALONE/Comuns/CORREGEDOR
+Building Assets/Anims/CORREGEDORIA_PARLAMENTAR.anim to Bundles/STANDALONE/Compostos/CORREGEDORIA_PARLAMENTAR
+Building Assets/Anims/CÂMARA.anim to Bundles/STANDALONE/Comuns/CÂMARA
+Building Assets/Anims/CÂMARA_DOS_DEPUTADOS.anim to Bundles/STANDALONE/Compostos/CÂMARA_DOS_DEPUTADOS
+Building Assets/Anims/CÓDIGO_DE_ÉTICA.anim to Bundles/STANDALONE/Compostos/CÓDIGO_DE_ÉTICA
+Building Assets/Anims/Default Take.anim to Bundles/STANDALONE/Comuns/Verificar/Default Take
+Building Assets/Anims/EMENDA_DE_COMISSÃO.anim to Bundles/STANDALONE/Compostos/EMENDA_DE_COMISSÃO
+Building Assets/Anims/EMENDA_DE_PLENÁRIO.anim to Bundles/STANDALONE/Compostos/EMENDA_DE_PLENÁRIO
+Building Assets/Anims/EMENDA_SUBSTITUTIVA.anim to Bundles/STANDALONE/Compostos/EMENDA_SUBSTITUTIVA
+Building Assets/Anims/EMENDA_SUPRESSIVA.anim to Bundles/STANDALONE/Compostos/EMENDA_SUPRESSIVA
+Building Assets/Anims/ENCERRAMENTO_DA_DISCUSSÃO.anim to Bundles/STANDALONE/Compostos/ENCERRAMENTO_DA_DISCUSSÃO
+Building Assets/Anims/ENTRAR_EM_VIGOR.anim to Bundles/STANDALONE/Compostos/ENTRAR_EM_VIGOR
+Building Assets/Anims/FAVORÁVEL_(A_UMA_MATÉRIA).anim to Bundles/STANDALONE/Desambiguação/FAVORÁVEL_(A_UMA_MATÉRIA)
+Building Assets/Anims/GALERIAS_(DO_PLENÁRIO_DA_CÂMARA).anim to Bundles/STANDALONE/Desambiguação/GALERIAS_(DO_PLENÁRIO_DA_CÂMARA)
+Building Assets/Anims/GOVERNO_FEDERAL.anim to Bundles/STANDALONE/Compostos/GOVERNO_FEDERAL
+Building Assets/Anims/IMPRENSA_NACIONAL.anim to Bundles/STANDALONE/Compostos/IMPRENSA_NACIONAL
+Building Assets/Anims/INCONSTITUCIONAL.anim to Bundles/STANDALONE/Comuns/INCONSTITUCIONAL
+Building Assets/Anims/INCONSTITUCIONALIDADE.anim to Bundles/STANDALONE/Comuns/INCONSTITUCIONALIDADE
+Building Assets/Anims/JORNAL_DA_CÂMARA.anim to Bundles/STANDALONE/Compostos/JORNAL_DA_CÂMARA
+Building Assets/Anims/JURIDICIDADE.anim to Bundles/STANDALONE/Comuns/JURIDICIDADE
+Building Assets/Anims/LEGISLAR.anim to Bundles/STANDALONE/Comuns/LEGISLAR
+Building Assets/Anims/LEGISLATURA.anim to Bundles/STANDALONE/Comuns/LEGISLATURA
+Building Assets/Anims/LEI_DE_DIRETRIZES_ORÇAMENTÁRIAS_(LDO).anim to Bundles/STANDALONE/Desambiguação/LEI_DE_DIRETRIZES_ORÇAMENTÁRIAS_(LDO)
+Building Assets/Anims/LEI_DELEGADA.anim to Bundles/STANDALONE/Compostos/LEI_DELEGADA
+Building Assets/Anims/LIDERANÇA_DE_GOVERNO.anim to Bundles/STANDALONE/Compostos/LIDERANÇA_DE_GOVERNO
+Building Assets/Anims/LIDERANÇA_DE_PARTIDO.anim to Bundles/STANDALONE/Compostos/LIDERANÇA_DE_PARTIDO
+Building Assets/Anims/LIDERANÇA_PARTIDÁRIA.anim to Bundles/STANDALONE/Compostos/LIDERANÇA_PARTIDÁRIA
+Building Assets/Anims/LÍDER_DA_MAIORIA.anim to Bundles/STANDALONE/Compostos/LÍDER_DA_MAIORIA
+Building Assets/Anims/LÍDER_DA_MINORIA.anim to Bundles/STANDALONE/Compostos/LÍDER_DA_MINORIA
+Building Assets/Anims/LÍDER_DO_GOVERNO.anim to Bundles/STANDALONE/Compostos/LÍDER_DO_GOVERNO
+Building Assets/Anims/LÍDER_DOS_PARTIDOS.anim to Bundles/STANDALONE/Compostos/LÍDER_DOS_PARTIDOS
+Building Assets/Anims/MAIORIA_PARLAMENTAR.anim to Bundles/STANDALONE/Compostos/MAIORIA_PARLAMENTAR
+Building Assets/Anims/MEDIDA_PROVISÓRIA.anim to Bundles/STANDALONE/Compostos/MEDIDA_PROVISÓRIA
+Building Assets/Anims/MESA.anim to Bundles/STANDALONE/Comuns/MESA
+Building Assets/Anims/MESA_DIRETORA.anim to Bundles/STANDALONE/Compostos/MESA_DIRETORA
+Building Assets/Anims/MINISTRO_DO_ESTADO.anim to Bundles/STANDALONE/Compostos/MINISTRO_DO_ESTADO
+Building Assets/Anims/MINISTÉRIO_PÚBLICO.anim to Bundles/STANDALONE/Compostos/MINISTÉRIO_PÚBLICO
+Building Assets/Anims/MINORIA_(PARLAMENTAR).anim to Bundles/STANDALONE/Desambiguação/MINORIA_(PARLAMENTAR)
+Building Assets/Anims/MOTIVOS_DO_VETO.anim to Bundles/STANDALONE/Compostos/MOTIVOS_DO_VETO
+Building Assets/Anims/MOÇÃO.anim to Bundles/STANDALONE/Comuns/MOÇÃO
+Building Assets/Anims/NOTAS_TAQUIGRÁFICAS.anim to Bundles/STANDALONE/Compostos/NOTAS_TAQUIGRÁFICAS
+Building Assets/Anims/ORDEM_DO_DIA_(FASE).anim to Bundles/STANDALONE/Desambiguação/ORDEM_DO_DIA_(FASE)
+Building Assets/Anims/ORDEM_DO_DIA_(PAUTA).anim to Bundles/STANDALONE/Desambiguação/ORDEM_DO_DIA_(PAUTA)
+Building Assets/Anims/ORDEM_ECONÔMICA.anim to Bundles/STANDALONE/Compostos/ORDEM_ECONÔMICA
+Building Assets/Anims/ORDEM_JURÍDICA.anim to Bundles/STANDALONE/Compostos/ORDEM_JURÍDICA
+Building Assets/Anims/ORÇAMENTO_ANUAL.anim to Bundles/STANDALONE/Compostos/ORÇAMENTO_ANUAL
+Building Assets/Anims/ORÇAMENTO_DA_UNIÃO.anim to Bundles/STANDALONE/Compostos/ORÇAMENTO_DA_UNIÃO
+Building Assets/Anims/OUVIDOR-GERAL.anim to Bundles/STANDALONE/Comuns/OUVIDOR-GERAL
+Building Assets/Anims/OUVIDORIA_PARLAMENTAR.anim to Bundles/STANDALONE/Compostos/OUVIDORIA_PARLAMENTAR
+Building Assets/Anims/PALÁCIO_DO_CONGRESSO_NACIONAL.anim to Bundles/STANDALONE/Compostos/PALÁCIO_DO_CONGRESSO_NACIONAL
+Building Assets/Anims/PARECER_DA_COMISSÃO.anim to Bundles/STANDALONE/Compostos/PARECER_DA_COMISSÃO
+Building Assets/Anims/PARLAMENTAR_(PESSOA).anim to Bundles/STANDALONE/Desambiguação/PARLAMENTAR_(PESSOA)
+Building Assets/Anims/PARTIDO_POLÍTICO.anim to Bundles/STANDALONE/Compostos/PARTIDO_POLÍTICO
+Building Assets/Anims/PAUTA.anim to Bundles/STANDALONE/Comuns/PAUTA
+Building Assets/Anims/PEDIDO_DE_VISTA.anim to Bundles/STANDALONE/Compostos/PEDIDO_DE_VISTA
+Building Assets/Anims/PEDIR_VISTA.anim to Bundles/STANDALONE/Compostos/PEDIR_VISTA
+Building Assets/Anims/PETIÇÃO.anim to Bundles/STANDALONE/Comuns/PETIÇÃO
+Building Assets/Anims/PLENÁRIO_(GRUPO_REUNIDO).anim to Bundles/STANDALONE/Desambiguação/PLENÁRIO_(GRUPO_REUNIDO)
+Building Assets/Anims/PLENÁRIO_DA_CÂMARA_(LOCAL).anim to Bundles/STANDALONE/Desambiguação/PLENÁRIO_DA_CÂMARA_(LOCAL)
+Building Assets/Anims/PODER_COERCITIVO.anim to Bundles/STANDALONE/Compostos/PODER_COERCITIVO
+Building Assets/Anims/PODER_CONCLUSIVO.anim to Bundles/STANDALONE/Compostos/PODER_CONCLUSIVO
+Building Assets/Anims/PRIMEIRA-SECRETÁRIA.anim to Bundles/STANDALONE/Comuns/PRIMEIRA-SECRETÁRIA
+Building Assets/Anims/PRIMEIRA-VICE-PRESIDENTE.anim to Bundles/STANDALONE/Comuns/PRIMEIRA-VICE-PRESIDENTE
+Building Assets/Anims/PRIMEIRO-SECRETÁRIO.anim to Bundles/STANDALONE/Comuns/PRIMEIRO-SECRETÁRIO
+Building Assets/Anims/PRIMEIRO-VICE-PRESIDENTE.anim to Bundles/STANDALONE/Comuns/PRIMEIRO-VICE-PRESIDENTE
+Building Assets/Anims/PRIMEIRO_SIGNATÁRIO.anim to Bundles/STANDALONE/Compostos/PRIMEIRO_SIGNATÁRIO
+Building Assets/Anims/QUARTA-SECRETÁRIA.anim to Bundles/STANDALONE/Comuns/QUARTA-SECRETÁRIA
+Building Assets/Anims/QUARTO-SECRETÁRIO.anim to Bundles/STANDALONE/Comuns/QUARTO-SECRETÁRIO
+Building Assets/Anims/SEGUNDA-SECRETÁRIA.anim to Bundles/STANDALONE/Comuns/SEGUNDA-SECRETÁRIA
+Building Assets/Anims/SEGUNDA-VICE-PRESIDENTE.anim to Bundles/STANDALONE/Comuns/SEGUNDA-VICE-PRESIDENTE
+Building Assets/Anims/SEGUNDO-SECRETÁRIO.anim to Bundles/STANDALONE/Comuns/SEGUNDO-SECRETÁRIO
+Building Assets/Anims/SEGUNDO-VICE-PRESIDENTE.anim to Bundles/STANDALONE/Comuns/SEGUNDO-VICE-PRESIDENTE
+Building Assets/Anims/TAQUIGRAFIA.anim to Bundles/STANDALONE/Comuns/TAQUIGRAFIA
+Building Assets/Anims/TERCEIRA-SECRETÁRIA.anim to Bundles/STANDALONE/Comuns/TERCEIRA-SECRETÁRIA
+Building Assets/Anims/TERCEIRO-SECRETÁRIO.anim to Bundles/STANDALONE/Comuns/TERCEIRO-SECRETÁRIO
 
