@@ -170,10 +170,6 @@ public class BlendToBundlesConverter {
 				converted.Add(assetPath);
 			else
 				continue;
-
-			/*ModelImporter mi = AssetImporter.GetAtPath(assetPath) as ModelImporter;
-			mi.animationCompression = ModelImporterAnimationCompression.KeyframeReduction;
-			mi.SaveAndReimport();*/
 			
 			GameObject go = AssetDatabase.LoadAssetAtPath(
 				assetPath,
@@ -187,7 +183,9 @@ public class BlendToBundlesConverter {
 
 				log("Starting " + assetPath.Substring(0, assetPath.Length - 6));
 				log(clips.Length + " animation clips found");
-				
+
+				Regex rgx = new Regex("[\\<\\>\\:\\\"\\\\\\/\\|\\?\\*]");
+
 				if (clips.Length > 0)
 				{
 					foreach (AnimationClip clip in clips)
@@ -195,7 +193,8 @@ public class BlendToBundlesConverter {
 						AnimationClip newClip = new AnimationClip();
 						EditorUtility.CopySerialized(clip, newClip);
 
-						string path = "Assets/Anims/" + names.Dequeue() + ".anim";
+						string name = rgx.Replace((string) names.Dequeue(), "_");
+						string path = "Assets/Anims/" + name + ".anim";
 						log("Saving " + path);
 
 						AssetDatabase.CreateAsset(newClip, path);
