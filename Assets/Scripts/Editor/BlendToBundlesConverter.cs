@@ -162,6 +162,14 @@ public class BlendToBundlesConverter {
 
 		converted = new HashSet<string>();
 
+		// Clears anims
+		System.IO.DirectoryInfo di = new DirectoryInfo(Application.dataPath + "/Assets");
+		log("Number of .anim to be deleted: " + di.GetFiles().Length);
+
+		foreach (FileInfo file in di.GetFiles())
+			file.Delete();
+
+		// Extracts anims
 		foreach (string assetPathID in assetsPaths)
 		{
 			string assetPath = AssetDatabase.GUIDToAssetPath(assetPathID);
@@ -215,13 +223,14 @@ public class BlendToBundlesConverter {
 		
 		log("How many assets in Assets/Anims: " + assetsPaths.Length);
 		
-		foreach (string assetPathID in assetsPaths){
-			
+		foreach (string assetPathID in assetsPaths)
+		{
 			string assetPath = AssetDatabase.GUIDToAssetPath(assetPathID);
 			
 			UnityEngine.Object asset = AssetDatabase.LoadAssetAtPath(
-				assetPath,
-				(typeof(UnityEngine.Object))) as UnityEngine.Object;
+					assetPath,
+					(typeof(UnityEngine.Object))
+				) as UnityEngine.Object;
 			
 			if (asset != null)
 			{
