@@ -36,6 +36,8 @@ else:
 	os.mkdir('Assets/Blends')
 	print('Assets/Blends created!')
 
+
+
 if not os.path.isdir('LOGS'):
 	os.mkdir('LOGS')
 	print('LOGS created!')
