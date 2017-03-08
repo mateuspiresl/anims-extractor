@@ -10,6 +10,9 @@ for dirname, dirnames, filenames in os.walk(root):
 		print "\n\nAUTOGEN " + blends + "\n\n"
 		
 		biadroid.gen(blends, False)
-		os.rename("Bundles", "Bundles_" + dirn)
+		print dirn
+
+		if os.path.isdir('Bundles'):
+			os.rename("Bundles", "Bundles_" + dirn)
 
 	break

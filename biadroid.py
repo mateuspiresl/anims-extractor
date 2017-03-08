@@ -18,61 +18,74 @@ def clearBlends():
 root = os.path.dirname(os.path.realpath(__file__))
 
 
-blendsDir = raw_input('Folder: ')
+def gen(blends, prompt):
+	if os.path.isdir('Assets/Blends'):
+		numFiles = len([name for name in os.listdir('Assets/Blends')])
 
-yesPattern = re.compile('[yY]')
-toContinue = ''
-
-if os.path.isdir('Assets/Blends'):
-	numFiles = len([name for name in os.listdir('Assets/Blends')])
-
-	if numFiles > 0:
-		answer = raw_input('Assets/Blends (alguns files/dirs) will be cleared, prompt y/Y to continue or anything to quit: ')
-		if (answer != 'y' and answer != 'Y'):
-			sys.exit()
-		else:
-			clearBlends()
-else:
-	os.mkdir('Assets/Blends')
-	print('Assets/Blends created!')
-
+		if numFiles > 0:
+			if prompt:
+				answer = raw_input('Assets/Blends (alguns files/dirs) will be cleared, prompt y/Y to continue or anything to quit: ')
+				if (answer != 'y' and answer != 'Y'):
+					sys.exit()
+				else:
+					clearBlends()
+			else:
+				clearBlends()
+	else:
+		os.mkdir('Assets/Blends')
+		print('Assets/Blends created!')
 
 
-if not os.path.isdir('LOGS'):
-	os.mkdir('LOGS')
-	print('LOGS created!')
 
-print('Checking ' + blendsDir + '...')
+	if not os.path.isdir('LOGS'):
+		os.mkdir('LOGS')
+		print('LOGS created!')
 
-for dirname, dirnames, filenames in os.walk(blendsDir):
-	for filename in filenames:
-		if filename.endswith('.blend'):
-			print('')
-			print('Found: ' + filename)
-			path = os.path.join(dirname, filename)
+	print('Checking ' + blends + '...')
 
-			blendpath = root + '/Assets/Blends/' + filename
-			print('Moving ' + path + ' to ' + blendpath + '...')
-			os.rename(path, blendpath)
-			
-			print('Getting animation names...')
-			call(['blender', blendpath, '--background', '--python', 'aninames.py'])
-			
-			print('Running converter...')
-			call([
-					'C:\Program Files\Unity\Editor\Unity.exe',
-					'-quit',
-					'-batchmode',
-					'-logFile',
-					root + '\LOGS\LOG__' + filename[:-6] + '.txt',
-					'-projectPath',
-					root,
-					'-executeMethod',
-					'BlendToBundlesConverter.convert'
-				])
+	for dirname, dirnames, filenames in os.walk(blends):
+		for filename in filenames:
+			if filename.endswith('.blend'):
+				print('')
+				print('Found: ' + filename)
+				path = os.path.join(dirname, filename)
 
-			print('Success!')
-			clearBlends()
+				blendpath = root + '/Assets/Blends/' + filename
+				print('Moving ' + path + ' to ' + blendpath + '...')
+				os.rename(path, blendpath)
 
-filepath = 'C:\Workspace\\babc\Assets\Bundles\\'
-subprocess.Popen('explorer /select,"' + filepath + '"')
+				animspath = root + '/Assets/Anims'
+				if os.path.isdir(animspath):
+					print 'Removing ' + animspath 
+					shutil.rmtree(animspath)
+				
+				print('Getting animation names...')
+				call(['blender', blendpath, '--background', '--python', 'aninames.py'])
+				
+				print('Running converter...')
+				call([
+						'C:\Program Files\Unity\Editor\Unity.exe',
+						'-quit',
+						'-batchmode',
+						'-logFile',
+						root + '\LOGS\LOG__' + filename[:-6] + '.txt',
+						'-projectPath',
+						root,
+						'-executeMethod',
+						'BlendToBundlesConverter.convert'
+					])
+
+				print('Success!')
+				clearBlends()
+
+	filepath = 'C:\Workspace\\babc\Assets\Bundles\\'
+	subprocess.Popen('explorer /select,"' + filepath + '"')
+
+
+if __name__ == '__main__':
+	blendsDir = raw_input('Folder: ')
+
+	yesPattern = re.compile('[yY]')
+	toContinue = ''
+
+	gen(blends, True)
