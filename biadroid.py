@@ -4,6 +4,7 @@ from subprocess import call
 import sys
 import re
 import shutil
+import v5fix
 
 def clearBlends():
 	print('Cleaning Assets/Blends...')
@@ -88,4 +89,5 @@ if __name__ == '__main__':
 	yesPattern = re.compile('[yY]')
 	toContinue = ''
 
-	gen(blends, True)
+	gen(blendsDir, True)
+	v5fix.refactor_bundles('./Bundles')
