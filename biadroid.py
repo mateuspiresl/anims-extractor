@@ -25,7 +25,7 @@ def gen(blends, prompt):
 
 		if numFiles > 0:
 			if prompt:
-				answer = raw_input('Assets/Blends (alguns files/dirs) will be cleared, prompt y/Y to continue or anything to quit: ')
+				answer = input('Assets/Blends (alguns files/dirs) will be cleared, prompt y/Y to continue or anything to quit: ')
 				if (answer != 'y' and answer != 'Y'):
 					sys.exit()
 				else:
@@ -57,7 +57,7 @@ def gen(blends, prompt):
 
 				animspath = root + '/Assets/Anims'
 				if os.path.isdir(animspath):
-					print 'Removing ' + animspath 
+					print('Removing ' + animspath)
 					shutil.rmtree(animspath)
 				
 				print('Getting animation names...')
@@ -65,7 +65,7 @@ def gen(blends, prompt):
 				
 				print('Running converter...')
 				call([
-						'C:\Program Files\Unity\Editor\Unity.exe',
+						'C:\\Program Files\\Unity\\Editor\\Unity.exe',
 						'-quit',
 						'-batchmode',
 						'-logFile',
@@ -79,12 +79,12 @@ def gen(blends, prompt):
 				print('Success!')
 				clearBlends()
 
-	filepath = 'C:\Workspace\\babc\Assets\Bundles\\'
+	filepath = 'C:\\Workspace\\babc\\Assets\\Bundles\\'
 	subprocess.Popen('explorer /select,"' + filepath + '"')
 
 
 if __name__ == '__main__':
-	blendsDir = raw_input('Folder: ')
+	blendsDir = input('Folder: ')
 
 	yesPattern = re.compile('[yY]')
 	toContinue = ''
