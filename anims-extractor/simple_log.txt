@@ -1,0 +1,7 @@
+How many assets in Assets/Blends: 66
+How many assets in Assets/Blends: 66
+Assets/Blends/À_TOA.blend
+Starting Assets/Blends/À_TOA
+3 animation clips found
+How many assets in Assets/Anims: 0
+

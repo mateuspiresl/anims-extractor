@@ -1,0 +1,1 @@
+"C:\Program Files\Unity\Editor\Unity.exe" -quit -batchmode -logFile C:\Workspace\wikilibras-player\log.txt -projectPath C:\Workspace\wikilibras-player\playercore_blend -executeMethod BlendToBundlesConverter.convert
