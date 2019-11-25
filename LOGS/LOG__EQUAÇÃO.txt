@@ -1,0 +1,2046 @@
+Initiating legacy licensing module
+LICENSE SYSTEM [2019524 12:16:2] Next license update check is after 2019-05-24T13:07:52
+
+
+LICENSE SYSTEM [2019524 12:16:2] 00327-60000-00000-AA287 != 00327-70000-00001-AA644
+
+Built from '2018.3/release' branch; Version is '2018.3.0f2 (6e9a27477296) revision 7248423'; Using compiler version '191326128'
+OS: 'Windows 10  (10.0.0) 64bit' Language: 'en' Physical Memory: 8101 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+[Package Manager] Server::Start -- Port 63962 was selected
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Editor\Unity.exe
+-quit
+-batchmode
+-logFile
+C:\Users\Vinicius Guedes\Desktop\lavid\Novo\anims-extractor\LOGS\LOG__EQUAÇÃO.txt
+-projectPath
+C:\Users\Vinicius Guedes\Desktop\lavid\Novo\anims-extractor
+-executeMethod
+BlendToBundlesConverter.convert
+Successfully changed project path to: C:\Users\Vinicius Guedes\Desktop\lavid\Novo\anims-extractor
+C:/Users/Vinicius Guedes/Desktop/lavid/Novo/anims-extractor
+Using Asset Import Pipeline V1.
+Initiating legacy licensing moduleLoading GUID <-> Path mappings...0.000161 seconds
+Loading Asset Database...0.099507 seconds
+Build target: OSXUniversal found and added!
+Build target: WindowsStoreApps found and added!
+Build target: Win64 found and added!
+Build target: Win found and added!
+Build target: LinuxUniversal found and added!
+Build target: Linux64 found and added!
+Build target: Linux found and added!
+Build target: iOS found and added!
+Build target: tvOS found and added!
+Build target: PS4 found and added!
+Build target: XboxOne found and added!
+Build target: Android found and added!
+Build target: WebGL found and added!
+Build target: Switch found and added!
+Build target: Lumin found and added!
+Build target: PSM found and added!
+Build target: PSP2 found and added!
+Build target: WiiU found and added!
+Build target: Web found and added!
+Build target: WebStreamed found and added!
+Build target: OSXIntel found and added!
+Build target: OSXIntel64 found and added!
+Build target: BlackBerry found and added!
+Build target: PS3 found and added!
+Build target: N3DS found and added!
+Build target: WP8 found and added!
+Build target: SamsungTV found and added!
+Build target: Tizen found and added!
+AssetDatabase consistency checks...0.036666 seconds
+Refreshing native plugins compatible for Editor in 2056.75 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+DisplayProgressbar: Unity Package Manager
+[Package Manager] Done resolving packages in 0.52s seconds
+[Package Manager] Registering 36 packages:
+[Package Manager]  * Package :  com.unity.ads@2.3.1
+    (location: C:\Users\Vinicius Guedes\Desktop\lavid\Novo\anims-extractor\Library\PackageCache\com.unity.ads@2.3.1)
+[Package Manager]  * Package :  com.unity.analytics@3.2.2
+    (location: C:\Users\Vinicius Guedes\Desktop\lavid\Novo\anims-extractor\Library\PackageCache\com.unity.analytics@3.2.2)
+[Package Manager]  * Package :  com.unity.collab-proxy@1.2.15
+    (location: C:\Users\Vinicius Guedes\Desktop\lavid\Novo\anims-extractor\Library\PackageCache\com.unity.collab-proxy@1.2.15)
+[Package Manager]  * Package :  com.unity.package-manager-ui@2.0.3
+    (location: C:\Users\Vinicius Guedes\Desktop\lavid\Novo\anims-extractor\Library\PackageCache\com.unity.package-manager-ui@2.0.3)
+[Package Manager]  * Package :  com.unity.purchasing@2.0.3
+    (location: C:\Users\Vinicius Guedes\Desktop\lavid\Novo\anims-extractor\Library\PackageCache\com.unity.purchasing@2.0.3)
+[Package Manager]  * Package :  com.unity.textmeshpro@1.3.0
+    (location: C:\Users\Vinicius Guedes\Desktop\lavid\Novo\anims-extractor\Library\PackageCache\com.unity.textmeshpro@1.3.0)
+[Package Manager]  * Package :  com.unity.modules.ai@1.0.0
+    (location: C:\Program Files\Unity\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.ai)
+[Package Manager]  * Package :  com.unity.modules.animation@1.0.0
+    (location: C:\Program Files\Unity\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.animation)
+[Package Manager]  * Package :  com.unity.modules.assetbundle@1.0.0
+    (location: C:\Program Files\Unity\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.assetbundle)
+[Package Manager]  * Package :  com.unity.modules.audio@1.0.0
+    (location: C:\Program Files\Unity\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.audio)
+[Package Manager]  * Package :  com.unity.modules.cloth@1.0.0
+    (location: C:\Program Files\Unity\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.cloth)
+[Package Manager]  * Package :  com.unity.modules.director@1.0.0
+    (location: C:\Program Files\Unity\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.director)
+[Package Manager]  * Package :  com.unity.modules.imageconversion@1.0.0
+    (location: C:\Program Files\Unity\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.imageconversion)
+[Package Manager]  * Package :  com.unity.modules.imgui@1.0.0
+    (location: C:\Program Files\Unity\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.imgui)
+[Package Manager]  * Package :  com.unity.modules.jsonserialize@1.0.0
+    (location: C:\Program Files\Unity\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.jsonserialize)
+[Package Manager]  * Package :  com.unity.modules.particlesystem@1.0.0
+    (location: C:\Program Files\Unity\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.particlesystem)
+[Package Manager]  * Package :  com.unity.modules.physics@1.0.0
+    (location: C:\Program Files\Unity\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.physics)
+[Package Manager]  * Package :  com.unity.modules.physics2d@1.0.0
+    (location: C:\Program Files\Unity\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.physics2d)
+[Package Manager]  * Package :  com.unity.modules.screencapture@1.0.0
+    (location: C:\Program Files\Unity\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.screencapture)
+[Package Manager]  * Package :  com.unity.modules.terrain@1.0.0
+    (location: C:\Program Files\Unity\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.terrain)
+[Package Manager]  * Package :  com.unity.modules.terrainphysics@1.0.0
+    (location: C:\Program Files\Unity\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.terrainphysics)
+[Package Manager]  * Package :  com.unity.modules.tilemap@1.0.0
+    (location: C:\Program Files\Unity\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.tilemap)
+[Package Manager]  * Package :  com.unity.modules.ui@1.0.0
+    (location: C:\Program Files\Unity\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.ui)
+[Package Manager]  * Package :  com.unity.modules.uielements@1.0.0
+    (location: C:\Program Files\Unity\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.uielements)
+[Package Manager]  * Package :  com.unity.modules.umbra@1.0.0
+    (location: C:\Program Files\Unity\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.umbra)
+[Package Manager]  * Package :  com.unity.modules.unityanalytics@1.0.0
+    (location: C:\Program Files\Unity\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unityanalytics)
+[Package Manager]  * Package :  com.unity.modules.unitywebrequest@1.0.0
+    (location: C:\Program Files\Unity\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequest)
+[Package Manager]  * Package :  com.unity.modules.unitywebrequestassetbundle@1.0.0
+    (location: C:\Program Files\Unity\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestassetbundle)
+[Package Manager]  * Package :  com.unity.modules.unitywebrequestaudio@1.0.0
+    (location: C:\Program Files\Unity\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestaudio)
+[Package Manager]  * Package :  com.unity.modules.unitywebrequesttexture@1.0.0
+    (location: C:\Program Files\Unity\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequesttexture)
+[Package Manager]  * Package :  com.unity.modules.unitywebrequestwww@1.0.0
+    (location: C:\Program Files\Unity\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestwww)
+[Package Manager]  * Package :  com.unity.modules.vehicles@1.0.0
+    (location: C:\Program Files\Unity\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.vehicles)
+[Package Manager]  * Package :  com.unity.modules.video@1.0.0
+    (location: C:\Program Files\Unity\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.video)
+[Package Manager]  * Package :  com.unity.modules.vr@1.0.0
+    (location: C:\Program Files\Unity\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.vr)
+[Package Manager]  * Package :  com.unity.modules.wind@1.0.0
+    (location: C:\Program Files\Unity\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.wind)
+[Package Manager]  * Package :  com.unity.modules.xr@1.0.0
+    (location: C:\Program Files\Unity\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.xr)
+[Package Manager] Done registering packages in 0.03s seconds
+Initialize engine version: 2018.3.0f2 (6e9a27477296)
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1050 (ID=0x1c8d)
+    Vendor:   
+    VRAM:     4021 MB
+    Driver:   24.21.13.9907
+[EnlightenBakeManager] m_Clear = false;
+WARNING: Shader Unsupported: 'AR/TangoARRender' - Pass '' has no vertex shader
+WARNING: Shader Unsupported: 'AR/TangoARRender' - Setting to default shader.
+WARNING: Shader Unsupported: 'Hidden/VideoDecodeOSX' - Pass 'Flip_RGBARect_To_RGBA' has no vertex shader
+WARNING: Shader Unsupported: 'Hidden/VideoDecodeOSX' - Setting to default shader.
+WARNING: Shader Unsupported: 'Hidden/VideoDecodeAndroid' - Pass 'RGBAExternal_To_RGBA' has no vertex shader
+WARNING: Shader Unsupported: 'Hidden/VideoDecodeAndroid' - Setting to default shader.
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=0.0.0.0:56012
+Begin MonoManager ReloadAssembly
+Refreshing native plugins compatible for Editor in 0.45 ms, found 3 plugins.
+Initializing Unity.PackageManager (PackageManager) v2018.3.0 for Unity v2018.3.0f2
+Registering precompiled unity dll's ...
+Register platform support module: C:\Program Files\Unity\Editor\Data\PlaybackEngines\AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:\Program Files\Unity\Editor\Data\PlaybackEngines\AppleTVSupport/UnityEditor.AppleTV.Extensions.dll
+Register platform support module: C:\Program Files\Unity\Editor\Data\PlaybackEngines\MetroSupport/UnityEditor.WSA.Extensions.dll
+Register platform support module: C:\Program Files\Unity\Editor\Data\PlaybackEngines\WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:\Program Files\Unity\Editor\Data\PlaybackEngines\LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Register platform support module: C:\Program Files\Unity\Editor\Data\PlaybackEngines\windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:\Program Files\Unity\Editor\Data\PlaybackEngines\MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.576296 seconds.
+Registering platform support modules:
+Registered platform support modules in: 0,3573766s.
+Native extension for Android target not found
+Failed to load: C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport\x86_64\UnityEditor.iOS.Native.dll
+Native extension for iOS target not found
+Failed to load: C:\Program Files\Unity\Editor\Data\PlaybackEngines\AppleTVSupport\x86_64\UnityEditor.iOS.Native.dll
+Native extension for tvOS target not found
+Native extension for Metro target not found
+Native extension for WebGL target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.00 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 100.93 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in 12.593 seconds
+Registering precompiled user dll's ...
+Registered in 1.072529 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Initializing Unity.PackageManager (PackageManager) v2018.3.0 for Unity v2018.3.0f2
+Registering platform support modules:
+Registered platform support modules in: 0,0588331s.
+Native extension for Android target not found
+Failed to load: C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport\x86_64\UnityEditor.iOS.Native.dll
+Native extension for iOS target not found
+Failed to load: C:\Program Files\Unity\Editor\Data\PlaybackEngines\AppleTVSupport\x86_64\UnityEditor.iOS.Native.dll
+Native extension for tvOS target not found
+Native extension for Metro target not found
+Native extension for WebGL target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.23 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.551 seconds
+Platform modules already initialized, skipping
+- Starting compile Library/ScriptAssemblies/Unity.TextMeshPro.dll
+- Starting compile Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll
+- Starting compile Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll
+- Starting compile Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+- Finished compile Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll
+Symbols will be read from Temp\Unity.Analytics.DataPrivacy.pdb
+Script Module: Unity.Analytics.DataPrivacy.dll
+Pass: 0 took 43 milliseconds
+Pass: 1 took 6 milliseconds
+- Finished compile Library/ScriptAssemblies/Unity.TextMeshPro.dll
+Symbols will be read from Temp\Unity.TextMeshPro.pdb
+Script Module: Unity.TextMeshPro.dll
+Pass: 0 took 128 milliseconds
+Pass: 1 took 94 milliseconds
+- Finished compile Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll
+- Finished compile Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+- Starting compile Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+- Finished compile Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+Begin MonoManager ReloadAssembly
+Initializing Unity.PackageManager (PackageManager) v2018.3.0 for Unity v2018.3.0f2
+Registering platform support modules:
+Registered platform support modules in: 0,0616785s.
+Native extension for Android target not found
+Failed to load: C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport\x86_64\UnityEditor.iOS.Native.dll
+Native extension for iOS target not found
+Failed to load: C:\Program Files\Unity\Editor\Data\PlaybackEngines\AppleTVSupport\x86_64\UnityEditor.iOS.Native.dll
+Native extension for tvOS target not found
+Native extension for Metro target not found
+Native extension for WebGL target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.24 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.124 seconds
+Platform modules already initialized, skipping
+- Starting compile Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+- Finished compile Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+Reloading assemblies after script compilation.
+Begin MonoManager ReloadAssembly
+Initializing Unity.PackageManager (PackageManager) v2018.3.0 for Unity v2018.3.0f2
+Registering platform support modules:
+Registered platform support modules in: 0,0641259s.
+Native extension for Android target not found
+Failed to load: C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport\x86_64\UnityEditor.iOS.Native.dll
+Native extension for iOS target not found
+Failed to load: C:\Program Files\Unity\Editor\Data\PlaybackEngines\AppleTVSupport\x86_64\UnityEditor.iOS.Native.dll
+Native extension for tvOS target not found
+Native extension for Metro target not found
+Native extension for WebGL target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.16 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.397 seconds
+Platform modules already initialized, skipping
+Validating Project structure ... 0.002180 seconds.
+Refresh: detecting if any assets need to be imported or removed ...
+Refresh: trashing asset 74b63c3014b137447a0edaa8dcbc6009
+Refresh: trashing asset 4fc4aba0336320249bc2bbe04de23954
+Refresh: trashing asset 4b362a6329917aa4eb325243b64b96d0
+Refresh: trashing asset 0d0fff25e90619a4b8345cb6195f7c2a
+Updating Assets/Blends/EQUAÇÃO.blend - GUID: f357fc1d0c9b0cd46b02dd56b93fc93f...
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.23 seconds
+Keyframe reduction: Ratio: 14.681569%; Time: 0.030283s;
+Keyframe reduction: Ratio: 12.341728%; Time: 0.004104s;
+Keyframe reduction: Ratio: 14.681569%; Time: 0.008253s;
+----- Compute hash for Assets/Blends/EQUAÇÃO.blend.
+Can't calculate tangents, because mesh 'MirarCamera' doesn't contain normals.
+
+ 
+(Filename: C:\buildslave\unity\build\Modules/AssetPipelineEditor/Public/ModelImporting/ModelImporter.cpp Line: 1089)
+
+Can't calculate tangents, because mesh 'CtrlCabeca' doesn't contain normals.
+
+ 
+(Filename: C:\buildslave\unity\build\Modules/AssetPipelineEditor/Public/ModelImporting/ModelImporter.cpp Line: 1089)
+
+Can't calculate tangents, because mesh 'CtrlSobrancelhaDi' doesn't contain normals.
+
+ 
+(Filename: C:\buildslave\unity\build\Modules/AssetPipelineEditor/Public/ModelImporting/ModelImporter.cpp Line: 1089)
+
+Can't calculate tangents, because mesh 'CtrlSobrancelhaDir' doesn't contain normals.
+
+ 
+(Filename: C:\buildslave\unity\build\Modules/AssetPipelineEditor/Public/ModelImporting/ModelImporter.cpp Line: 1089)
+
+Can't calculate tangents, because mesh 'CtrlOlhoGeral' doesn't contain normals.
+
+ 
+(Filename: C:\buildslave\unity\build\Modules/AssetPipelineEditor/Public/ModelImporting/ModelImporter.cpp Line: 1089)
+
+Can't calculate tangents, because mesh 'CtrlOlho' doesn't contain normals.
+
+ 
+(Filename: C:\buildslave\unity\build\Modules/AssetPipelineEditor/Public/ModelImporting/ModelImporter.cpp Line: 1089)
+
+Can't calculate tangents, because mesh 'CtrlMao_L' doesn't contain normals.
+
+ 
+(Filename: C:\buildslave\unity\build\Modules/AssetPipelineEditor/Public/ModelImporting/ModelImporter.cpp Line: 1089)
+
+Can't calculate tangents, because mesh 'CtrlMao_R' doesn't contain normals.
+
+ 
+(Filename: C:\buildslave\unity\build\Modules/AssetPipelineEditor/Public/ModelImporting/ModelImporter.cpp Line: 1089)
+
+ done. [Time: 21203.590567 ms] 
+Script Compilation Pipeline Post Process Assets time: 0.001446s
+Assembly Updater Post Process Assets time: 0.000348s
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 125.3 MB.
+System memory in use after: 33.1 MB.
+
+Unloading 432 unused Assets to reduce memory usage. Loaded Objects now: 939.
+Total: 46.841843 ms (FindLiveObjects: 0.423750 ms CreateObjectMapping: 0.062359 ms MarkObjects: 8.987359 ms  DeleteObjects: 37.367282 ms)
+
+Updating Assets/Blends/EQUAÇÃO_aninames.txt - GUID: 3a7e4861f1cc7314c8e4cfe3339cc032...
+----- Compute hash for Assets/Blends/EQUAÇÃO_aninames.txt.
+ done. [Time: 131.813134 ms] 
+Script Compilation Pipeline Post Process Assets time: 0.000025s
+Assembly Updater Post Process Assets time: 0.000372s
+Refreshing native plugins compatible for Editor in 0.92 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.32 ms.
+Refreshing native plugins compatible for Editor in 0.87 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.32 ms.
+
+Refresh Completed time: 22.851378s
+	Asset Scan time: 0.027746s
+	Asset Hashing: 0.000000s [0 B, 0.000000 mb/s]
+	Asset Import (Scripting) time: 0.000000s (count: 0)
+	Post Processs Assets (Scripting) time: 0.000000s
+	Asset Rehashing: 0.000000s [0 B, 0.000000 mb/s]
+	Asset Import (Non Scripting) time: 21.337357s (count: 2)
+	Post Process Assets (Non Scripting) time: 0.565396s
+	Dependent Assets to Import Queue time: 0.001048s
+
+Warming cache for 532 main assets: 0.001836 seconds elapsed
+Initializing Unity extensions:
+Updating C:/Program Files/Unity/Editor/Data/PlaybackEngines/MetroSupport/Managed/UAP/UnityEngine.Networking.dll - GUID: 52a206b72a8f4f749c28d8b18b42dd19...
+ done. [Time: 328.591980 ms] 
+Script Compilation Pipeline Post Process Assets time: 0.183973s
+Assembly Updater Post Process Assets time: 0.000013s
+Refreshing native plugins compatible for Editor in 3.17 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.46 ms.
+ 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Timeline/Runtime/UnityEngine.Timeline.dll'  GUID: 6a10b2909283487f913b00d94cd3faf5
+ 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/portable/nunit.framework.dll'  GUID: 405b9b51bb344a128608d968297df79c
+ 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/Standalone/UnityEngine.UI.dll'  GUID: f70555f144d8491a825f0804e09c671c
+ 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll'  GUID: f5f67c52d1564df4a8936ccd202a3bd8
+ 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll'  GUID: 844f815391db42d49455cbf1a7bfc434
+ 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/Standalone/UnityEngine.Networking.dll'  GUID: dc443db3e92b4983b9738c1131f555cb
+ 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/Runtime/UnityEngine.SpatialTracking.dll'  GUID: ed7343f30e3843b3afda8f8b02669cea
+ 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/Editor/UnityEditor.GoogleAudioSpatializer.dll'  GUID: 4a3ecb1425d14502837abea459cf2b70
+ 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll'  GUID: 5f32cd94baa94578a686d4b9d6b660f7
+ 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/Editor/UnityEditor.SpatialTracking.dll'  GUID: b5da970776034f77a070d99423d68791
+ 'C:/Program Files/Unity/Editor/Data/PlaybackEngines/MetroSupport/Managed/UAP/UnityEngine.Networking.dll'  GUID: 52a206b72a8f4f749c28d8b18b42dd19
+ 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll'  GUID: 870353891bb340e2b2a9c8707e7419ba
+ 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll'  GUID: 53ebcfaa2e1e4e2dbc85882cd5a73fa1
+ 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll'  GUID: ead147da21254ff9a0a936bdd75e1680
+ 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/Runtime/UnityEngine.GoogleAudioSpatializer.dll'  GUID: e4f4cf1b9b434137a499903a7a1d651a
+ 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll'  GUID: 4ba2329b63d54f0187bcaa12486b1b0f
+ 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll'  GUID: 3a84de5cd0624681b6b6dcd8921d912a
+ 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll'  GUID: 80a3616ca19596e4da0f10f14d241e9f
+ 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/Editor/UnityEditor.TestRunner.dll'  GUID: 4113173d5e95493ab8765d7b08371de4
+ 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll'  GUID: 4b3fa4bde7f1451a8218c03ee6a8ded8
+ 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Timeline/Editor/UnityEditor.Timeline.dll'  GUID: 7668179ede524d6396c8b7d84461ea29
+Unloading 60 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 34.3 MB.
+System memory in use after: 34.2 MB.
+
+Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 963.
+Total: 7.096531 ms (FindLiveObjects: 0.477357 ms CreateObjectMapping: 0.039749 ms MarkObjects: 6.463824 ms  DeleteObjects: 0.113049 ms)
+
+Refreshing native plugins compatible for Editor in 12.03 ms, found 3 plugins.
+- Starting compile Library/ScriptAssemblies/Unity.TextMeshPro.dll
+- Starting compile Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll
+- Starting compile Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll
+- Starting compile Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+- Finished compile Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll
+Symbols will be read from Temp\Unity.Analytics.DataPrivacy.pdb
+Script Module: Unity.Analytics.DataPrivacy.dll
+Pass: 0 took 42 milliseconds
+Pass: 1 took 4 milliseconds
+- Finished compile Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll
+- Finished compile Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+- Finished compile Library/ScriptAssemblies/Unity.TextMeshPro.dll
+Symbols will be read from Temp\Unity.TextMeshPro.pdb
+Script Module: Unity.TextMeshPro.dll
+Pass: 0 took 129 milliseconds
+Pass: 1 took 19 milliseconds
+- Starting compile Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+- Finished compile Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+- Starting compile Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+- Finished compile Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+Reloading assemblies after script compilation.
+Begin MonoManager ReloadAssembly
+Initializing Unity.PackageManager (PackageManager) v2018.3.0 for Unity v2018.3.0f2
+Registering platform support modules:
+Registered platform support modules in: 0,0601987s.
+Native extension for Android target not found
+Failed to load: C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport\x86_64\UnityEditor.iOS.Native.dll
+Native extension for iOS target not found
+Failed to load: C:\Program Files\Unity\Editor\Data\PlaybackEngines\AppleTVSupport\x86_64\UnityEditor.iOS.Native.dll
+Native extension for tvOS target not found
+Native extension for Metro target not found
+Native extension for WebGL target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.18 ms.
+Mono: successfully reloaded assembly
+Refreshing native plugins compatible for Editor in 2.03 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.54 ms.
+- Completed reload, in  2.993 seconds
+Platform modules already initialized, skipping
+1. How many assets in Assets/Blends: 66
+UnityEngine.DebugLogHandler:Internal_Log()
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+BlendToBundlesConverter:log(String) (at Assets\Scripts\Editor\BlendToBundlesConverter.cs:293)
+BlendToBundlesConverter:convert() (at Assets\Scripts\Editor\BlendToBundlesConverter.cs:134)
+ 
+(Filename: Assets/Scripts/Editor/BlendToBundlesConverter.cs Line: 293)
+
+Refresh: detecting if any assets need to be imported or removed ...
+Updating Assets/Anims - GUID: 4fc4aba0336320249bc2bbe04de23954...
+ done. [Time: 158.126458 ms] 
+Script Compilation Pipeline Post Process Assets time: 0.000211s
+Assembly Updater Post Process Assets time: 0.000128s
+Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.17 ms.
+Refreshing native plugins compatible for Editor in 0.46 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.19 ms.
+
+Refresh Completed time: 0.343805s
+	Asset Scan time: 0.046990s
+	Asset Hashing: 0.000000s [0 B, 0.000000 mb/s]
+	Asset Import (Scripting) time: 0.158731s (count: 1)
+	Post Processs Assets (Scripting) time: 0.000000s
+	Asset Rehashing: 0.000000s [0 B, 0.000000 mb/s]
+	Asset Import (Non Scripting) time: 0.000000s (count: 0)
+	Post Process Assets (Non Scripting) time: 0.012576s
+	Dependent Assets to Import Queue time: 0.000272s
+
+2. How many assets in Assets/Blends: 66
+UnityEngine.DebugLogHandler:Internal_Log()
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+BlendToBundlesConverter:log(String) (at Assets\Scripts\Editor\BlendToBundlesConverter.cs:293)
+BlendToBundlesConverter:convert() (at Assets\Scripts\Editor\BlendToBundlesConverter.cs:139)
+ 
+(Filename: Assets/Scripts/Editor/BlendToBundlesConverter.cs Line: 293)
+
+3. Assets/Blends/EQUAÇÃO.blend
+UnityEngine.DebugLogHandler:Internal_Log()
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+BlendToBundlesConverter:log(String) (at Assets\Scripts\Editor\BlendToBundlesConverter.cs:293)
+BlendToBundlesConverter:convert() (at Assets\Scripts\Editor\BlendToBundlesConverter.cs:150)
+ 
+(Filename: Assets/Scripts/Editor/BlendToBundlesConverter.cs Line: 293)
+
+4. Starting Assets/Blends/EQUAÇÃO
+UnityEngine.DebugLogHandler:Internal_Log()
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+BlendToBundlesConverter:log(String) (at Assets\Scripts\Editor\BlendToBundlesConverter.cs:293)
+BlendToBundlesConverter:convert() (at Assets\Scripts\Editor\BlendToBundlesConverter.cs:176)
+ 
+(Filename: Assets/Scripts/Editor/BlendToBundlesConverter.cs Line: 293)
+
+5. 3 animation clips found
+UnityEngine.DebugLogHandler:Internal_Log()
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+BlendToBundlesConverter:log(String) (at Assets\Scripts\Editor\BlendToBundlesConverter.cs:293)
+BlendToBundlesConverter:convert() (at Assets\Scripts\Editor\BlendToBundlesConverter.cs:177)
+ 
+(Filename: Assets/Scripts/Editor/BlendToBundlesConverter.cs Line: 293)
+
+o tamanho do clip:3
+UnityEngine.DebugLogHandler:Internal_Log()
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+BlendToBundlesConverter:convert() (at Assets\Scripts\Editor\BlendToBundlesConverter.cs:182)
+ 
+(Filename: Assets/Scripts/Editor/BlendToBundlesConverter.cs Line: 182)
+
+ClipName: EQUA__O
+UnityEngine.DebugLogHandler:Internal_Log()
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+BlendToBundlesConverter:convert() (at Assets\Scripts\Editor\BlendToBundlesConverter.cs:197)
+ 
+(Filename: Assets/Scripts/Editor/BlendToBundlesConverter.cs Line: 197)
+
+NameFinal: EQUAÇÃO
+UnityEngine.DebugLogHandler:Internal_Log()
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+BlendToBundlesConverter:convert() (at Assets\Scripts\Editor\BlendToBundlesConverter.cs:203)
+ 
+(Filename: Assets/Scripts/Editor/BlendToBundlesConverter.cs Line: 203)
+
+6. Saving Assets/Anims/EQUAÇÃO.anim
+UnityEngine.DebugLogHandler:Internal_Log()
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+BlendToBundlesConverter:log(String) (at Assets\Scripts\Editor\BlendToBundlesConverter.cs:293)
+BlendToBundlesConverter:convert() (at Assets\Scripts\Editor\BlendToBundlesConverter.cs:206)
+ 
+(Filename: Assets/Scripts/Editor/BlendToBundlesConverter.cs Line: 293)
+
+Updating Assets/Anims/EQUAÇÃO.anim - GUID: 737bb02fee28c38419dc14eab614e1ed...
+----- Compute hash for Assets/Anims/EQUAÇÃO.anim.
+ done. [Time: 128.993485 ms] 
+Script Compilation Pipeline Post Process Assets time: 0.000011s
+Assembly Updater Post Process Assets time: 0.000251s
+Refreshing native plugins compatible for Editor in 0.94 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.30 ms.
+7. How many assets in Assets/Anims: 1
+UnityEngine.DebugLogHandler:Internal_Log()
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+BlendToBundlesConverter:log(String) (at Assets\Scripts\Editor\BlendToBundlesConverter.cs:293)
+BlendToBundlesConverter:buildBundles() (at Assets\Scripts\Editor\BlendToBundlesConverter.cs:232)
+BlendToBundlesConverter:convert() (at Assets\Scripts\Editor\BlendToBundlesConverter.cs:224)
+ 
+(Filename: Assets/Scripts/Editor/BlendToBundlesConverter.cs Line: 293)
+
+8. Building Assets/Anims/EQUAÇÃO.anim to Bundles/STANDALONE_WINDOWS/Comuns/EQUAÇÃO
+UnityEngine.DebugLogHandler:Internal_Log()
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+BlendToBundlesConverter:log(String) (at Assets\Scripts\Editor\BlendToBundlesConverter.cs:293)
+BlendToBundlesConverter:buildBundle(String, String, String, BuildTarget) (at Assets\Scripts\Editor\BlendToBundlesConverter.cs:274)
+BlendToBundlesConverter:buildBundles() (at Assets\Scripts\Editor\BlendToBundlesConverter.cs:244)
+BlendToBundlesConverter:convert() (at Assets\Scripts\Editor\BlendToBundlesConverter.cs:224)
+ 
+(Filename: Assets/Scripts/Editor/BlendToBundlesConverter.cs Line: 293)
+
+WARNING: Shader Unsupported: 'Hidden/VideoDecodeOSX' - Pass 'Flip_RGBARect_To_RGBA' has no vertex shader
+WARNING: Shader Unsupported: 'Hidden/VideoDecodeOSX' - Setting to default shader.
+WARNING: Shader Unsupported: 'Hidden/VideoDecodeAndroid' - Pass 'RGBAExternal_To_RGBA' has no vertex shader
+WARNING: Shader Unsupported: 'Hidden/VideoDecodeAndroid' - Setting to default shader.
+Refresh: detecting if any assets need to be imported or removed ...
+Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.16 ms.
+Refreshing native plugins compatible for Editor in 0.92 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.32 ms.
+
+Refresh Completed time: 0.133060s
+	Asset Scan time: 0.018511s
+	Asset Hashing: 0.000000s [0 B, 0.000000 mb/s]
+	Asset Import (Scripting) time: 0.000000s (count: 0)
+	Post Processs Assets (Scripting) time: 0.000000s
+	Asset Rehashing: 0.000000s [0 B, 0.000000 mb/s]
+	Asset Import (Non Scripting) time: 0.000000s (count: 0)
+	Post Process Assets (Non Scripting) time: 0.000000s
+	Dependent Assets to Import Queue time: 0.000000s
+
+Determining assets that need to be reimported for target platform ... DisplayProgressbar: Hold on..
+11.178430 seconds.
+
+Hashing assets (37 files)... 2.721 seconds
+  file read: 0.341 seconds (1.811 MB)
+  wait for write: 0.000 seconds (I/O thread blocked by consumer, aka CPU bound)
+  wait for read: 2.712 seconds (CPUT thread waiting for I/O thread, aka disk bound)
+  hash: 0.005 seconds
+Refreshing native plugins compatible for Editor in 0.84 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.19 ms.
+WARNING: Shader Unsupported: 'Hidden/VideoDecodeOSX' - Pass 'Flip_RGBARect_To_RGBA' has no vertex shader
+WARNING: Shader Unsupported: 'Hidden/VideoDecodeOSX' - Setting to default shader.
+WARNING: Shader Unsupported: 'Hidden/VideoDecodeAndroid' - Pass 'RGBAExternal_To_RGBA' has no vertex shader
+WARNING: Shader Unsupported: 'Hidden/VideoDecodeAndroid' - Setting to default shader.
+BuildPlayer: start building target 5
+- Starting compile Library/ScriptAssemblies/Unity.TextMeshPro.dll
+- Starting compile Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll
+- Finished compile Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll
+Symbols will be read from Temp\Unity.Analytics.DataPrivacy.pdb
+Script Module: Unity.Analytics.DataPrivacy.dll
+Pass: 0 took 69 milliseconds
+Pass: 1 took 3 milliseconds
+- Finished compile Library/ScriptAssemblies/Unity.TextMeshPro.dll
+Symbols will be read from Temp\Unity.TextMeshPro.pdb
+Script Module: Unity.TextMeshPro.dll
+Pass: 0 took 56 milliseconds
+Pass: 1 took 9 milliseconds
+DisplayProgressbar: Building AssetBundle
+- Collect Sprites to Pack : (SequentialAtlasing : 0) 
+[     52 MB ]- Grouping sprites using the selected SpritePackerPolicy.
+[     53 MB ]- Completed grouping sprites to Atlas.
+[     53 MB ]- Build Sprite Atlas. 
+[     53 MB ]- Packing 0 atlases.
+[     53 MB ]- Packing completed.
+[     53 MB ]- Update Sprites and Cleanup. 
+[     53 MB ]DisplayProgressbar: Building Asset Bundle
+
+***Player size statistics***
+Total compressed size 33.8 KB. Total uncompressed size 196.5 KB.
+Unloading 508 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 53.1 MB.
+System memory in use after: 50.2 MB.
+
+Unloading 718 unused Assets to reduce memory usage. Loaded Objects now: 986.
+Total: 28.891924 ms (FindLiveObjects: 0.582018 ms CreateObjectMapping: 0.102838 ms MarkObjects: 27.531330 ms  DeleteObjects: 0.674280 ms)
+
+- Starting compile Library/ScriptAssemblies/Unity.TextMeshPro.dll
+- Starting compile Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll
+- Starting compile Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll
+- Starting compile Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+- Finished compile Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll
+Symbols will be read from Temp\Unity.Analytics.DataPrivacy.pdb
+Script Module: Unity.Analytics.DataPrivacy.dll
+Pass: 0 took 41 milliseconds
+Pass: 1 took 0 milliseconds
+- Finished compile Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+- Finished compile Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll
+- Finished compile Library/ScriptAssemblies/Unity.TextMeshPro.dll
+Symbols will be read from Temp\Unity.TextMeshPro.pdb
+Script Module: Unity.TextMeshPro.dll
+Pass: 0 took 124 milliseconds
+Pass: 1 took 8 milliseconds
+- Starting compile Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+- Finished compile Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+- Starting compile Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+- Finished compile Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+DisplayProgressbar: Building AssetBundle
+DisplayProgressbar: Building Asset Bundle
+
+***Player size statistics***
+Total compressed size 1.0 KB. Total uncompressed size 4.2 KB.
+Refresh: detecting if any assets need to be imported or removed ...
+Refreshing native plugins compatible for Editor in 217.04 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.20 ms.
+Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.21 ms.
+
+Refresh Completed time: 1.300007s
+	Asset Scan time: 0.033240s
+	Asset Hashing: 0.000000s [0 B, 0.000000 mb/s]
+	Asset Import (Scripting) time: 0.000000s (count: 0)
+	Post Processs Assets (Scripting) time: 0.000000s
+	Asset Rehashing: 0.000000s [0 B, 0.000000 mb/s]
+	Asset Import (Non Scripting) time: 0.000000s (count: 0)
+	Post Process Assets (Non Scripting) time: 0.000000s
+	Dependent Assets to Import Queue time: 0.000000s
+
+Determining assets that need to be reimported for target platform ... DisplayProgressbar: Hold on..
+5.659296 seconds.
+
+Hashing assets (37 files)... 0.446 seconds
+  file read: 0.003 seconds (1.811 MB)
+  wait for write: 0.000 seconds (I/O thread blocked by consumer, aka CPU bound)
+  wait for read: 0.440 seconds (CPUT thread waiting for I/O thread, aka disk bound)
+  hash: 0.004 seconds
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.20 ms.
+WARNING: Shader Unsupported: 'Hidden/VideoDecodeOSX' - Pass 'Flip_RGBARect_To_RGBA' has no vertex shader
+WARNING: Shader Unsupported: 'Hidden/VideoDecodeOSX' - Setting to default shader.
+WARNING: Shader Unsupported: 'Hidden/VideoDecodeAndroid' - Pass 'RGBAExternal_To_RGBA' has no vertex shader
+WARNING: Shader Unsupported: 'Hidden/VideoDecodeAndroid' - Setting to default shader.
+Unloading 467 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 44.0 MB.
+System memory in use after: 44.1 MB.
+
+Unloading 465 unused Assets to reduce memory usage. Loaded Objects now: 988.
+Total: 20.194845 ms (FindLiveObjects: 0.380354 ms CreateObjectMapping: 0.030633 ms MarkObjects: 19.670081 ms  DeleteObjects: 0.112684 ms)
+
+
+-------------------------------------------------------------------------------
+Bundle Name: equaÇÃo
+Compressed Size:33.8 kb
+Uncompressed usage by category (Percentages based on user generated assets only):
+Textures               0.0 kb	 0.0% 
+Meshes                 0.0 kb	 0.0% 
+Animations             180.6 kb	 91.9% 
+Sounds                 0.0 kb	 0.0% 
+Shaders                0.0 kb	 0.0% 
+Other Assets           0.1 kb	 0.1% 
+Levels                 0.0 kb	 0.0% 
+Scripts                0.0 kb	 0.0% 
+Included DLLs          0.0 kb	 0.0% 
+File headers           15.8 kb	 8.0% 
+Total User Assets      196.5 kb	 100.0% 
+Complete build size    196.5 kb
+Used Assets and files from the Resources folder, sorted by uncompressed size:
+ 180.6 kb	 91.9% Assets/Anims/EQUAÇÃO.anim
+ 0.1 kb	 0.1% AssetBundle Object
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+Bundle Name: Comuns
+Compressed Size:1.0 kb
+Uncompressed usage by category (Percentages based on user generated assets only):
+Textures               0.0 kb	 0.0% 
+Meshes                 0.0 kb	 0.0% 
+Animations             0.0 kb	 0.0% 
+Sounds                 0.0 kb	 0.0% 
+Shaders                0.0 kb	 0.0% 
+Other Assets           0.2 kb	 4.6% 
+Levels                 0.0 kb	 0.0% 
+Scripts                0.0 kb	 0.0% 
+Included DLLs          0.0 kb	 0.0% 
+File headers           4.0 kb	 95.4% 
+Total User Assets      4.2 kb	 100.0% 
+Complete build size    4.2 kb
+Used Assets and files from the Resources folder, sorted by uncompressed size:
+ 0.1 kb	 2.7% AssetBundle Object
+ 0.1 kb	 1.9% Built-in AssetBundleManifest: AssetBundleManifest
+-------------------------------------------------------------------------------
+9. Building Assets/Anims/EQUAÇÃO.anim to Bundles/STANDALONE_WINDOWS-64/Comuns/EQUAÇÃO
+UnityEngine.DebugLogHandler:Internal_Log()
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+BlendToBundlesConverter:log(String) (at Assets\Scripts\Editor\BlendToBundlesConverter.cs:293)
+BlendToBundlesConverter:buildBundle(String, String, String, BuildTarget) (at Assets\Scripts\Editor\BlendToBundlesConverter.cs:274)
+BlendToBundlesConverter:buildBundles() (at Assets\Scripts\Editor\BlendToBundlesConverter.cs:245)
+BlendToBundlesConverter:convert() (at Assets\Scripts\Editor\BlendToBundlesConverter.cs:224)
+ 
+(Filename: Assets/Scripts/Editor/BlendToBundlesConverter.cs Line: 293)
+
+BuildPlayer: start building target 19
+- Starting compile Library/ScriptAssemblies/Unity.TextMeshPro.dll
+- Starting compile Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll
+- Finished compile Library/ScriptAssemblies/Unity.TextMeshPro.dll
+Symbols will be read from Temp\Unity.TextMeshPro.pdb
+Script Module: Unity.TextMeshPro.dll
+Pass: 0 took 46 milliseconds
+Pass: 1 took 9 milliseconds
+- Finished compile Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll
+Symbols will be read from Temp\Unity.Analytics.DataPrivacy.pdb
+Script Module: Unity.Analytics.DataPrivacy.dll
+Pass: 0 took 51 milliseconds
+Pass: 1 took 0 milliseconds
+DisplayProgressbar: Building AssetBundle
+- Collect Sprites to Pack : (SequentialAtlasing : 0) 
+[     35 MB ]- Grouping sprites using the selected SpritePackerPolicy.
+[     36 MB ]- Completed grouping sprites to Atlas.
+[     36 MB ]- Build Sprite Atlas. 
+[     36 MB ]- Packing 0 atlases.
+[     36 MB ]- Packing completed.
+[     36 MB ]- Update Sprites and Cleanup. 
+[     36 MB ]DisplayProgressbar: Building Asset Bundle
+
+***Player size statistics***
+Total compressed size 33.9 KB. Total uncompressed size 196.5 KB.
+Unloading 47 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 37.0 MB.
+System memory in use after: 37.0 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 986.
+Total: 36.678051 ms (FindLiveObjects: 0.709653 ms CreateObjectMapping: 0.051054 ms MarkObjects: 35.872853 ms  DeleteObjects: 0.041208 ms)
+
+- Starting compile Library/ScriptAssemblies/Unity.TextMeshPro.dll
+- Starting compile Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll
+- Starting compile Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll
+- Starting compile Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+- Finished compile Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll
+Symbols will be read from Temp\Unity.Analytics.DataPrivacy.pdb
+Script Module: Unity.Analytics.DataPrivacy.dll
+Pass: 0 took 118 milliseconds
+Pass: 1 took 0 milliseconds
+- Finished compile Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+- Finished compile Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll
+- Finished compile Library/ScriptAssemblies/Unity.TextMeshPro.dll
+Symbols will be read from Temp\Unity.TextMeshPro.pdb
+Script Module: Unity.TextMeshPro.dll
+Pass: 0 took 84 milliseconds
+Pass: 1 took 12 milliseconds
+- Starting compile Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+- Finished compile Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+- Starting compile Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+- Finished compile Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+DisplayProgressbar: Building AssetBundle
+DisplayProgressbar: Building Asset Bundle
+
+***Player size statistics***
+Total compressed size 1.0 KB. Total uncompressed size 4.2 KB.
+Unloading 9 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 35.2 MB.
+System memory in use after: 35.3 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 988.
+Total: 42.488745 ms (FindLiveObjects: 0.545915 ms CreateObjectMapping: 0.048137 ms MarkObjects: 41.857497 ms  DeleteObjects: 0.035373 ms)
+
+
+-------------------------------------------------------------------------------
+Bundle Name: equaÇÃo
+Compressed Size:33.9 kb
+Uncompressed usage by category (Percentages based on user generated assets only):
+Textures               0.0 kb	 0.0% 
+Meshes                 0.0 kb	 0.0% 
+Animations             180.6 kb	 91.9% 
+Sounds                 0.0 kb	 0.0% 
+Shaders                0.0 kb	 0.0% 
+Other Assets           0.1 kb	 0.1% 
+Levels                 0.0 kb	 0.0% 
+Scripts                0.0 kb	 0.0% 
+Included DLLs          0.0 kb	 0.0% 
+File headers           15.8 kb	 8.0% 
+Total User Assets      196.5 kb	 100.0% 
+Complete build size    196.5 kb
+Used Assets and files from the Resources folder, sorted by uncompressed size:
+ 180.6 kb	 91.9% Assets/Anims/EQUAÇÃO.anim
+ 0.1 kb	 0.1% AssetBundle Object
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+Bundle Name: Comuns
+Compressed Size:1.0 kb
+Uncompressed usage by category (Percentages based on user generated assets only):
+Textures               0.0 kb	 0.0% 
+Meshes                 0.0 kb	 0.0% 
+Animations             0.0 kb	 0.0% 
+Sounds                 0.0 kb	 0.0% 
+Shaders                0.0 kb	 0.0% 
+Other Assets           0.2 kb	 4.6% 
+Levels                 0.0 kb	 0.0% 
+Scripts                0.0 kb	 0.0% 
+Included DLLs          0.0 kb	 0.0% 
+File headers           4.0 kb	 95.4% 
+Total User Assets      4.2 kb	 100.0% 
+Complete build size    4.2 kb
+Used Assets and files from the Resources folder, sorted by uncompressed size:
+ 0.1 kb	 2.7% AssetBundle Object
+ 0.1 kb	 1.9% Built-in AssetBundleManifest: AssetBundleManifest
+-------------------------------------------------------------------------------
+10. Building Assets/Anims/EQUAÇÃO.anim to Bundles/STANDALONE_LINUX/Comuns/EQUAÇÃO
+UnityEngine.DebugLogHandler:Internal_Log()
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+BlendToBundlesConverter:log(String) (at Assets\Scripts\Editor\BlendToBundlesConverter.cs:293)
+BlendToBundlesConverter:buildBundle(String, String, String, BuildTarget) (at Assets\Scripts\Editor\BlendToBundlesConverter.cs:274)
+BlendToBundlesConverter:buildBundles() (at Assets\Scripts\Editor\BlendToBundlesConverter.cs:246)
+BlendToBundlesConverter:convert() (at Assets\Scripts\Editor\BlendToBundlesConverter.cs:224)
+ 
+(Filename: Assets/Scripts/Editor/BlendToBundlesConverter.cs Line: 293)
+
+Refresh: detecting if any assets need to be imported or removed ...
+Refreshing native plugins compatible for Editor in 3.10 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.14 ms.
+Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.17 ms.
+
+Refresh Completed time: 0.125346s
+	Asset Scan time: 0.018692s
+	Asset Hashing: 0.000000s [0 B, 0.000000 mb/s]
+	Asset Import (Scripting) time: 0.000000s (count: 0)
+	Post Processs Assets (Scripting) time: 0.000000s
+	Asset Rehashing: 0.000000s [0 B, 0.000000 mb/s]
+	Asset Import (Non Scripting) time: 0.000000s (count: 0)
+	Post Process Assets (Non Scripting) time: 0.000000s
+	Dependent Assets to Import Queue time: 0.000000s
+
+Determining assets that need to be reimported for target platform ... 0.185468 seconds.
+
+Hashing assets (37 files)... 0.008 seconds
+  file read: 0.002 seconds (1.811 MB)
+  wait for write: 0.000 seconds (I/O thread blocked by consumer, aka CPU bound)
+  wait for read: 0.003 seconds (CPUT thread waiting for I/O thread, aka disk bound)
+  hash: 0.003 seconds
+Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.18 ms.
+WARNING: Shader Unsupported: 'Hidden/VideoDecodeOSX' - Pass 'Flip_RGBARect_To_RGBA' has no vertex shader
+WARNING: Shader Unsupported: 'Hidden/VideoDecodeOSX' - Setting to default shader.
+WARNING: Shader Unsupported: 'Hidden/VideoDecodeAndroid' - Pass 'RGBAExternal_To_RGBA' has no vertex shader
+WARNING: Shader Unsupported: 'Hidden/VideoDecodeAndroid' - Setting to default shader.
+BuildPlayer: start building target 17
+- Starting compile Library/ScriptAssemblies/Unity.TextMeshPro.dll
+- Starting compile Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll
+- Finished compile Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll
+Symbols will be read from Temp\Unity.Analytics.DataPrivacy.pdb
+Script Module: Unity.Analytics.DataPrivacy.dll
+Pass: 0 took 55 milliseconds
+Pass: 1 took 0 milliseconds
+- Finished compile Library/ScriptAssemblies/Unity.TextMeshPro.dll
+Symbols will be read from Temp\Unity.TextMeshPro.pdb
+Script Module: Unity.TextMeshPro.dll
+Pass: 0 took 45 milliseconds
+Pass: 1 took 9 milliseconds
+DisplayProgressbar: Building AssetBundle
+- Collect Sprites to Pack : (SequentialAtlasing : 0) 
+[     44 MB ]- Grouping sprites using the selected SpritePackerPolicy.
+[     45 MB ]- Completed grouping sprites to Atlas.
+[     45 MB ]- Build Sprite Atlas. 
+[     45 MB ]- Packing 0 atlases.
+[     45 MB ]- Packing completed.
+[     45 MB ]- Update Sprites and Cleanup. 
+[     45 MB ]DisplayProgressbar: Building Asset Bundle
+
+***Player size statistics***
+Total compressed size 33.9 KB. Total uncompressed size 196.5 KB.
+Unloading 505 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 45.8 MB.
+System memory in use after: 45.9 MB.
+
+Unloading 471 unused Assets to reduce memory usage. Loaded Objects now: 986.
+Total: 27.402600 ms (FindLiveObjects: 0.634895 ms CreateObjectMapping: 0.090074 ms MarkObjects: 26.523010 ms  DeleteObjects: 0.153163 ms)
+
+- Starting compile Library/ScriptAssemblies/Unity.TextMeshPro.dll
+- Starting compile Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll
+- Starting compile Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll
+- Starting compile Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+- Finished compile Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll
+Symbols will be read from Temp\Unity.Analytics.DataPrivacy.pdb
+Script Module: Unity.Analytics.DataPrivacy.dll
+Pass: 0 took 35 milliseconds
+Pass: 1 took 0 milliseconds
+- Finished compile Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+- Finished compile Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll
+- Finished compile Library/ScriptAssemblies/Unity.TextMeshPro.dll
+Symbols will be read from Temp\Unity.TextMeshPro.pdb
+Script Module: Unity.TextMeshPro.dll
+Pass: 0 took 126 milliseconds
+Pass: 1 took 10 milliseconds
+- Starting compile Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+- Finished compile Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+- Starting compile Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+- Finished compile Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+DisplayProgressbar: Building AssetBundle
+DisplayProgressbar: Building Asset Bundle
+
+***Player size statistics***
+Total compressed size 1.0 KB. Total uncompressed size 4.2 KB.
+Refresh: detecting if any assets need to be imported or removed ...
+Refreshing native plugins compatible for Editor in 1041.41 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.44 ms.
+Refreshing native plugins compatible for Editor in 1.39 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.48 ms.
+
+Refresh Completed time: 2.245975s
+	Asset Scan time: 0.032685s
+	Asset Hashing: 0.000000s [0 B, 0.000000 mb/s]
+	Asset Import (Scripting) time: 0.000000s (count: 0)
+	Post Processs Assets (Scripting) time: 0.000000s
+	Asset Rehashing: 0.000000s [0 B, 0.000000 mb/s]
+	Asset Import (Non Scripting) time: 0.000000s (count: 0)
+	Post Process Assets (Non Scripting) time: 0.000000s
+	Dependent Assets to Import Queue time: 0.000000s
+
+Determining assets that need to be reimported for target platform ... DisplayProgressbar: Hold on..
+6.319995 seconds.
+
+Hashing assets (37 files)... 0.461 seconds
+  file read: 0.003 seconds (1.811 MB)
+  wait for write: 0.000 seconds (I/O thread blocked by consumer, aka CPU bound)
+  wait for read: 0.454 seconds (CPUT thread waiting for I/O thread, aka disk bound)
+  hash: 0.004 seconds
+Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.22 ms.
+WARNING: Shader Unsupported: 'Hidden/VideoDecodeOSX' - Pass 'Flip_RGBARect_To_RGBA' has no vertex shader
+WARNING: Shader Unsupported: 'Hidden/VideoDecodeOSX' - Setting to default shader.
+WARNING: Shader Unsupported: 'Hidden/VideoDecodeAndroid' - Pass 'RGBAExternal_To_RGBA' has no vertex shader
+WARNING: Shader Unsupported: 'Hidden/VideoDecodeAndroid' - Setting to default shader.
+Unloading 467 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 44.1 MB.
+System memory in use after: 44.2 MB.
+
+Unloading 465 unused Assets to reduce memory usage. Loaded Objects now: 988.
+Total: 18.675618 ms (FindLiveObjects: 0.288821 ms CreateObjectMapping: 0.031362 ms MarkObjects: 18.225977 ms  DeleteObjects: 0.129094 ms)
+
+
+-------------------------------------------------------------------------------
+Bundle Name: equaÇÃo
+Compressed Size:33.9 kb
+Uncompressed usage by category (Percentages based on user generated assets only):
+Textures               0.0 kb	 0.0% 
+Meshes                 0.0 kb	 0.0% 
+Animations             180.6 kb	 91.9% 
+Sounds                 0.0 kb	 0.0% 
+Shaders                0.0 kb	 0.0% 
+Other Assets           0.1 kb	 0.1% 
+Levels                 0.0 kb	 0.0% 
+Scripts                0.0 kb	 0.0% 
+Included DLLs          0.0 kb	 0.0% 
+File headers           15.8 kb	 8.0% 
+Total User Assets      196.5 kb	 100.0% 
+Complete build size    196.5 kb
+Used Assets and files from the Resources folder, sorted by uncompressed size:
+ 180.6 kb	 91.9% Assets/Anims/EQUAÇÃO.anim
+ 0.1 kb	 0.1% AssetBundle Object
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+Bundle Name: Comuns
+Compressed Size:1.0 kb
+Uncompressed usage by category (Percentages based on user generated assets only):
+Textures               0.0 kb	 0.0% 
+Meshes                 0.0 kb	 0.0% 
+Animations             0.0 kb	 0.0% 
+Sounds                 0.0 kb	 0.0% 
+Shaders                0.0 kb	 0.0% 
+Other Assets           0.2 kb	 4.6% 
+Levels                 0.0 kb	 0.0% 
+Scripts                0.0 kb	 0.0% 
+Included DLLs          0.0 kb	 0.0% 
+File headers           4.0 kb	 95.4% 
+Total User Assets      4.2 kb	 100.0% 
+Complete build size    4.2 kb
+Used Assets and files from the Resources folder, sorted by uncompressed size:
+ 0.1 kb	 2.7% AssetBundle Object
+ 0.1 kb	 1.9% Built-in AssetBundleManifest: AssetBundleManifest
+-------------------------------------------------------------------------------
+11. Building Assets/Anims/EQUAÇÃO.anim to Bundles/STANDALONE_LINUX-64/Comuns/EQUAÇÃO
+UnityEngine.DebugLogHandler:Internal_Log()
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+BlendToBundlesConverter:log(String) (at Assets\Scripts\Editor\BlendToBundlesConverter.cs:293)
+BlendToBundlesConverter:buildBundle(String, String, String, BuildTarget) (at Assets\Scripts\Editor\BlendToBundlesConverter.cs:274)
+BlendToBundlesConverter:buildBundles() (at Assets\Scripts\Editor\BlendToBundlesConverter.cs:247)
+BlendToBundlesConverter:convert() (at Assets\Scripts\Editor\BlendToBundlesConverter.cs:224)
+ 
+(Filename: Assets/Scripts/Editor/BlendToBundlesConverter.cs Line: 293)
+
+Refresh: detecting if any assets need to be imported or removed ...
+Refreshing native plugins compatible for Editor in 3.44 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.15 ms.
+Refreshing native plugins compatible for Editor in 1.51 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.49 ms.
+
+Refresh Completed time: 0.175848s
+	Asset Scan time: 0.024806s
+	Asset Hashing: 0.000000s [0 B, 0.000000 mb/s]
+	Asset Import (Scripting) time: 0.000000s (count: 0)
+	Post Processs Assets (Scripting) time: 0.000000s
+	Asset Rehashing: 0.000000s [0 B, 0.000000 mb/s]
+	Asset Import (Non Scripting) time: 0.000000s (count: 0)
+	Post Process Assets (Non Scripting) time: 0.000000s
+	Dependent Assets to Import Queue time: 0.000000s
+
+Determining assets that need to be reimported for target platform ... 0.154191 seconds.
+
+Hashing assets (37 files)... 0.008 seconds
+  file read: 0.002 seconds (1.811 MB)
+  wait for write: 0.000 seconds (I/O thread blocked by consumer, aka CPU bound)
+  wait for read: 0.003 seconds (CPUT thread waiting for I/O thread, aka disk bound)
+  hash: 0.003 seconds
+Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.20 ms.
+WARNING: Shader Unsupported: 'Hidden/VideoDecodeOSX' - Pass 'Flip_RGBARect_To_RGBA' has no vertex shader
+WARNING: Shader Unsupported: 'Hidden/VideoDecodeOSX' - Setting to default shader.
+WARNING: Shader Unsupported: 'Hidden/VideoDecodeAndroid' - Pass 'RGBAExternal_To_RGBA' has no vertex shader
+WARNING: Shader Unsupported: 'Hidden/VideoDecodeAndroid' - Setting to default shader.
+BuildPlayer: start building target 24
+- Starting compile Library/ScriptAssemblies/Unity.TextMeshPro.dll
+- Starting compile Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll
+- Finished compile Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll
+Symbols will be read from Temp\Unity.Analytics.DataPrivacy.pdb
+Script Module: Unity.Analytics.DataPrivacy.dll
+Pass: 0 took 42 milliseconds
+Pass: 1 took 0 milliseconds
+- Finished compile Library/ScriptAssemblies/Unity.TextMeshPro.dll
+Symbols will be read from Temp\Unity.TextMeshPro.pdb
+Script Module: Unity.TextMeshPro.dll
+Pass: 0 took 97 milliseconds
+Pass: 1 took 14 milliseconds
+DisplayProgressbar: Building AssetBundle
+- Collect Sprites to Pack : (SequentialAtlasing : 0) 
+[     44 MB ]- Grouping sprites using the selected SpritePackerPolicy.
+[     45 MB ]- Completed grouping sprites to Atlas.
+[     45 MB ]- Build Sprite Atlas. 
+[     45 MB ]- Packing 0 atlases.
+[     45 MB ]- Packing completed.
+[     45 MB ]- Update Sprites and Cleanup. 
+[     45 MB ]DisplayProgressbar: Building Asset Bundle
+
+***Player size statistics***
+Total compressed size 33.9 KB. Total uncompressed size 196.5 KB.
+Unloading 505 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 45.8 MB.
+System memory in use after: 45.9 MB.
+
+Unloading 471 unused Assets to reduce memory usage. Loaded Objects now: 986.
+Total: 20.842139 ms (FindLiveObjects: 0.404787 ms CreateObjectMapping: 0.047772 ms MarkObjects: 20.230947 ms  DeleteObjects: 0.157174 ms)
+
+- Starting compile Library/ScriptAssemblies/Unity.TextMeshPro.dll
+- Starting compile Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll
+- Starting compile Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll
+- Starting compile Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+- Finished compile Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll
+Symbols will be read from Temp\Unity.Analytics.DataPrivacy.pdb
+Script Module: Unity.Analytics.DataPrivacy.dll
+Pass: 0 took 200 milliseconds
+Pass: 1 took 0 milliseconds
+- Finished compile Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+- Finished compile Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll
+- Finished compile Library/ScriptAssemblies/Unity.TextMeshPro.dll
+Symbols will be read from Temp\Unity.TextMeshPro.pdb
+Script Module: Unity.TextMeshPro.dll
+Pass: 0 took 89 milliseconds
+Pass: 1 took 10 milliseconds
+- Starting compile Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+- Finished compile Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+- Starting compile Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+- Finished compile Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+DisplayProgressbar: Building AssetBundle
+DisplayProgressbar: Building Asset Bundle
+
+***Player size statistics***
+Total compressed size 1.0 KB. Total uncompressed size 4.2 KB.
+Refresh: detecting if any assets need to be imported or removed ...
+Refreshing native plugins compatible for Editor in 4.33 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.15 ms.
+Refreshing native plugins compatible for Editor in 1.11 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.35 ms.
+
+Refresh Completed time: 0.390131s
+	Asset Scan time: 0.018378s
+	Asset Hashing: 0.000000s [0 B, 0.000000 mb/s]
+	Asset Import (Scripting) time: 0.000000s (count: 0)
+	Post Processs Assets (Scripting) time: 0.000000s
+	Asset Rehashing: 0.000000s [0 B, 0.000000 mb/s]
+	Asset Import (Non Scripting) time: 0.000000s (count: 0)
+	Post Process Assets (Non Scripting) time: 0.000000s
+	Dependent Assets to Import Queue time: 0.000000s
+
+Determining assets that need to be reimported for target platform ... 0.241816 seconds.
+
+Hashing assets (37 files)... 0.011 seconds
+  file read: 0.003 seconds (1.811 MB)
+  wait for write: 0.000 seconds (I/O thread blocked by consumer, aka CPU bound)
+  wait for read: 0.005 seconds (CPUT thread waiting for I/O thread, aka disk bound)
+  hash: 0.004 seconds
+Refreshing native plugins compatible for Editor in 0.88 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.36 ms.
+WARNING: Shader Unsupported: 'Hidden/VideoDecodeOSX' - Pass 'Flip_RGBARect_To_RGBA' has no vertex shader
+WARNING: Shader Unsupported: 'Hidden/VideoDecodeOSX' - Setting to default shader.
+WARNING: Shader Unsupported: 'Hidden/VideoDecodeAndroid' - Pass 'RGBAExternal_To_RGBA' has no vertex shader
+WARNING: Shader Unsupported: 'Hidden/VideoDecodeAndroid' - Setting to default shader.
+Unloading 467 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 44.1 MB.
+System memory in use after: 44.2 MB.
+
+Unloading 465 unused Assets to reduce memory usage. Loaded Objects now: 988.
+Total: 30.978581 ms (FindLiveObjects: 0.472616 ms CreateObjectMapping: 0.050690 ms MarkObjects: 30.287162 ms  DeleteObjects: 0.167020 ms)
+
+
+-------------------------------------------------------------------------------
+Bundle Name: equaÇÃo
+Compressed Size:33.9 kb
+Uncompressed usage by category (Percentages based on user generated assets only):
+Textures               0.0 kb	 0.0% 
+Meshes                 0.0 kb	 0.0% 
+Animations             180.6 kb	 91.9% 
+Sounds                 0.0 kb	 0.0% 
+Shaders                0.0 kb	 0.0% 
+Other Assets           0.1 kb	 0.1% 
+Levels                 0.0 kb	 0.0% 
+Scripts                0.0 kb	 0.0% 
+Included DLLs          0.0 kb	 0.0% 
+File headers           15.8 kb	 8.0% 
+Total User Assets      196.5 kb	 100.0% 
+Complete build size    196.5 kb
+Used Assets and files from the Resources folder, sorted by uncompressed size:
+ 180.6 kb	 91.9% Assets/Anims/EQUAÇÃO.anim
+ 0.1 kb	 0.1% AssetBundle Object
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+Bundle Name: Comuns
+Compressed Size:1.0 kb
+Uncompressed usage by category (Percentages based on user generated assets only):
+Textures               0.0 kb	 0.0% 
+Meshes                 0.0 kb	 0.0% 
+Animations             0.0 kb	 0.0% 
+Sounds                 0.0 kb	 0.0% 
+Shaders                0.0 kb	 0.0% 
+Other Assets           0.2 kb	 4.6% 
+Levels                 0.0 kb	 0.0% 
+Scripts                0.0 kb	 0.0% 
+Included DLLs          0.0 kb	 0.0% 
+File headers           4.0 kb	 95.4% 
+Total User Assets      4.2 kb	 100.0% 
+Complete build size    4.2 kb
+Used Assets and files from the Resources folder, sorted by uncompressed size:
+ 0.1 kb	 2.7% AssetBundle Object
+ 0.1 kb	 1.9% Built-in AssetBundleManifest: AssetBundleManifest
+-------------------------------------------------------------------------------
+12. Building Assets/Anims/EQUAÇÃO.anim to Bundles/STANDALONE_LINUX-UNI/Comuns/EQUAÇÃO
+UnityEngine.DebugLogHandler:Internal_Log()
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+BlendToBundlesConverter:log(String) (at Assets\Scripts\Editor\BlendToBundlesConverter.cs:293)
+BlendToBundlesConverter:buildBundle(String, String, String, BuildTarget) (at Assets\Scripts\Editor\BlendToBundlesConverter.cs:274)
+BlendToBundlesConverter:buildBundles() (at Assets\Scripts\Editor\BlendToBundlesConverter.cs:248)
+BlendToBundlesConverter:convert() (at Assets\Scripts\Editor\BlendToBundlesConverter.cs:224)
+ 
+(Filename: Assets/Scripts/Editor/BlendToBundlesConverter.cs Line: 293)
+
+Refresh: detecting if any assets need to be imported or removed ...
+Refreshing native plugins compatible for Editor in 3.13 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.15 ms.
+Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.17 ms.
+
+Refresh Completed time: 0.116394s
+	Asset Scan time: 0.034989s
+	Asset Hashing: 0.000000s [0 B, 0.000000 mb/s]
+	Asset Import (Scripting) time: 0.000000s (count: 0)
+	Post Processs Assets (Scripting) time: 0.000000s
+	Asset Rehashing: 0.000000s [0 B, 0.000000 mb/s]
+	Asset Import (Non Scripting) time: 0.000000s (count: 0)
+	Post Process Assets (Non Scripting) time: 0.000000s
+	Dependent Assets to Import Queue time: 0.000000s
+
+Determining assets that need to be reimported for target platform ... 0.171351 seconds.
+
+Hashing assets (37 files)... 0.007 seconds
+  file read: 0.001 seconds (1.811 MB)
+  wait for write: 0.000 seconds (I/O thread blocked by consumer, aka CPU bound)
+  wait for read: 0.003 seconds (CPUT thread waiting for I/O thread, aka disk bound)
+  hash: 0.003 seconds
+Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.18 ms.
+WARNING: Shader Unsupported: 'Hidden/VideoDecodeOSX' - Pass 'Flip_RGBARect_To_RGBA' has no vertex shader
+WARNING: Shader Unsupported: 'Hidden/VideoDecodeOSX' - Setting to default shader.
+WARNING: Shader Unsupported: 'Hidden/VideoDecodeAndroid' - Pass 'RGBAExternal_To_RGBA' has no vertex shader
+WARNING: Shader Unsupported: 'Hidden/VideoDecodeAndroid' - Setting to default shader.
+BuildPlayer: start building target 25
+- Starting compile Library/ScriptAssemblies/Unity.TextMeshPro.dll
+- Starting compile Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll
+- Finished compile Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll
+Symbols will be read from Temp\Unity.Analytics.DataPrivacy.pdb
+Script Module: Unity.Analytics.DataPrivacy.dll
+Pass: 0 took 89 milliseconds
+Pass: 1 took 0 milliseconds
+- Finished compile Library/ScriptAssemblies/Unity.TextMeshPro.dll
+Symbols will be read from Temp\Unity.TextMeshPro.pdb
+Script Module: Unity.TextMeshPro.dll
+Pass: 0 took 60 milliseconds
+Pass: 1 took 14 milliseconds
+DisplayProgressbar: Building AssetBundle
+- Collect Sprites to Pack : (SequentialAtlasing : 0) 
+[     44 MB ]- Grouping sprites using the selected SpritePackerPolicy.
+[     45 MB ]- Completed grouping sprites to Atlas.
+[     45 MB ]- Build Sprite Atlas. 
+[     45 MB ]- Packing 0 atlases.
+[     45 MB ]- Packing completed.
+[     45 MB ]- Update Sprites and Cleanup. 
+[     45 MB ]DisplayProgressbar: Building Asset Bundle
+
+***Player size statistics***
+Total compressed size 33.9 KB. Total uncompressed size 196.5 KB.
+Unloading 505 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 45.8 MB.
+System memory in use after: 45.9 MB.
+
+Unloading 471 unused Assets to reduce memory usage. Loaded Objects now: 986.
+Total: 18.652644 ms (FindLiveObjects: 0.356650 ms CreateObjectMapping: 0.039020 ms MarkObjects: 18.080837 ms  DeleteObjects: 0.175043 ms)
+
+- Starting compile Library/ScriptAssemblies/Unity.TextMeshPro.dll
+- Starting compile Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll
+- Starting compile Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll
+- Starting compile Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+- Finished compile Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll
+Symbols will be read from Temp\Unity.Analytics.DataPrivacy.pdb
+Script Module: Unity.Analytics.DataPrivacy.dll
+Pass: 0 took 57 milliseconds
+Pass: 1 took 0 milliseconds
+- Finished compile Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+- Finished compile Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll
+- Finished compile Library/ScriptAssemblies/Unity.TextMeshPro.dll
+Symbols will be read from Temp\Unity.TextMeshPro.pdb
+Script Module: Unity.TextMeshPro.dll
+Pass: 0 took 81 milliseconds
+Pass: 1 took 8 milliseconds
+- Starting compile Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+- Finished compile Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+- Starting compile Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+- Finished compile Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+DisplayProgressbar: Building AssetBundle
+DisplayProgressbar: Building Asset Bundle
+
+***Player size statistics***
+Total compressed size 1.0 KB. Total uncompressed size 4.2 KB.
+Refresh: detecting if any assets need to be imported or removed ...
+Refreshing native plugins compatible for Editor in 6.15 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.31 ms.
+Refreshing native plugins compatible for Editor in 0.76 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.23 ms.
+
+Refresh Completed time: 0.134051s
+	Asset Scan time: 0.026309s
+	Asset Hashing: 0.000000s [0 B, 0.000000 mb/s]
+	Asset Import (Scripting) time: 0.000000s (count: 0)
+	Post Processs Assets (Scripting) time: 0.000000s
+	Asset Rehashing: 0.000000s [0 B, 0.000000 mb/s]
+	Asset Import (Non Scripting) time: 0.000000s (count: 0)
+	Post Process Assets (Non Scripting) time: 0.000000s
+	Dependent Assets to Import Queue time: 0.000000s
+
+Determining assets that need to be reimported for target platform ... 0.181135 seconds.
+
+Hashing assets (37 files)... 0.009 seconds
+  file read: 0.002 seconds (1.811 MB)
+  wait for write: 0.000 seconds (I/O thread blocked by consumer, aka CPU bound)
+  wait for read: 0.004 seconds (CPUT thread waiting for I/O thread, aka disk bound)
+  hash: 0.003 seconds
+Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.18 ms.
+WARNING: Shader Unsupported: 'Hidden/VideoDecodeOSX' - Pass 'Flip_RGBARect_To_RGBA' has no vertex shader
+WARNING: Shader Unsupported: 'Hidden/VideoDecodeOSX' - Setting to default shader.
+WARNING: Shader Unsupported: 'Hidden/VideoDecodeAndroid' - Pass 'RGBAExternal_To_RGBA' has no vertex shader
+WARNING: Shader Unsupported: 'Hidden/VideoDecodeAndroid' - Setting to default shader.
+Unloading 467 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 44.1 MB.
+System memory in use after: 44.2 MB.
+
+Unloading 465 unused Assets to reduce memory usage. Loaded Objects now: 988.
+Total: 26.305665 ms (FindLiveObjects: 0.367590 ms CreateObjectMapping: 0.043031 ms MarkObjects: 25.730941 ms  DeleteObjects: 0.162644 ms)
+
+
+-------------------------------------------------------------------------------
+Bundle Name: equaÇÃo
+Compressed Size:33.9 kb
+Uncompressed usage by category (Percentages based on user generated assets only):
+Textures               0.0 kb	 0.0% 
+Meshes                 0.0 kb	 0.0% 
+Animations             180.6 kb	 91.9% 
+Sounds                 0.0 kb	 0.0% 
+Shaders                0.0 kb	 0.0% 
+Other Assets           0.1 kb	 0.1% 
+Levels                 0.0 kb	 0.0% 
+Scripts                0.0 kb	 0.0% 
+Included DLLs          0.0 kb	 0.0% 
+File headers           15.8 kb	 8.0% 
+Total User Assets      196.5 kb	 100.0% 
+Complete build size    196.5 kb
+Used Assets and files from the Resources folder, sorted by uncompressed size:
+ 180.6 kb	 91.9% Assets/Anims/EQUAÇÃO.anim
+ 0.1 kb	 0.1% AssetBundle Object
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+Bundle Name: Comuns
+Compressed Size:1.0 kb
+Uncompressed usage by category (Percentages based on user generated assets only):
+Textures               0.0 kb	 0.0% 
+Meshes                 0.0 kb	 0.0% 
+Animations             0.0 kb	 0.0% 
+Sounds                 0.0 kb	 0.0% 
+Shaders                0.0 kb	 0.0% 
+Other Assets           0.2 kb	 4.6% 
+Levels                 0.0 kb	 0.0% 
+Scripts                0.0 kb	 0.0% 
+Included DLLs          0.0 kb	 0.0% 
+File headers           4.0 kb	 95.4% 
+Total User Assets      4.2 kb	 100.0% 
+Complete build size    4.2 kb
+Used Assets and files from the Resources folder, sorted by uncompressed size:
+ 0.1 kb	 2.7% AssetBundle Object
+ 0.1 kb	 1.9% Built-in AssetBundleManifest: AssetBundleManifest
+-------------------------------------------------------------------------------
+13. Building Assets/Anims/EQUAÇÃO.anim to Bundles/ANDROID/Comuns/EQUAÇÃO
+UnityEngine.DebugLogHandler:Internal_Log()
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+BlendToBundlesConverter:log(String) (at Assets\Scripts\Editor\BlendToBundlesConverter.cs:293)
+BlendToBundlesConverter:buildBundle(String, String, String, BuildTarget) (at Assets\Scripts\Editor\BlendToBundlesConverter.cs:274)
+BlendToBundlesConverter:buildBundles() (at Assets\Scripts\Editor\BlendToBundlesConverter.cs:249)
+BlendToBundlesConverter:convert() (at Assets\Scripts\Editor\BlendToBundlesConverter.cs:224)
+ 
+(Filename: Assets/Scripts/Editor/BlendToBundlesConverter.cs Line: 293)
+
+WARNING: Shader Unsupported: 'Hidden/VideoDecodeOSX' - Pass 'Flip_RGBARect_To_RGBA' has no vertex shader
+WARNING: Shader Unsupported: 'Hidden/VideoDecodeOSX' - Setting to default shader.
+WARNING: Shader Unsupported: 'Hidden/VideoDecodeAndroid' - Pass 'RGBAExternal_To_RGBA' has no vertex shader
+WARNING: Shader Unsupported: 'Hidden/VideoDecodeAndroid' - Setting to default shader.
+Refresh: detecting if any assets need to be imported or removed ...
+Refreshing native plugins compatible for Editor in 3.09 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.14 ms.
+Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.21 ms.
+
+Refresh Completed time: 0.521694s
+	Asset Scan time: 0.027044s
+	Asset Hashing: 0.000000s [0 B, 0.000000 mb/s]
+	Asset Import (Scripting) time: 0.000000s (count: 0)
+	Post Processs Assets (Scripting) time: 0.000000s
+	Asset Rehashing: 0.000000s [0 B, 0.000000 mb/s]
+	Asset Import (Non Scripting) time: 0.000000s (count: 0)
+	Post Process Assets (Non Scripting) time: 0.000000s
+	Dependent Assets to Import Queue time: 0.000000s
+
+Determining assets that need to be reimported for target platform ... 0.160880 seconds.
+
+Hashing assets (31 files)... 0.006 seconds
+  file read: 0.001 seconds (1.491 MB)
+  wait for write: 0.000 seconds (I/O thread blocked by consumer, aka CPU bound)
+  wait for read: 0.002 seconds (CPUT thread waiting for I/O thread, aka disk bound)
+  hash: 0.003 seconds
+
+Hashing assets (6 files)... 0.001 seconds
+  file read: 0.000 seconds (0.320 MB)
+  wait for write: 0.000 seconds (I/O thread blocked by consumer, aka CPU bound)
+  wait for read: 0.001 seconds (CPUT thread waiting for I/O thread, aka disk bound)
+  hash: 0.001 seconds
+Updating Packages/com.unity.package-manager-ui/Editor/Resources/Images/Light/loading.png - GUID: 01e02995805eb483690380a911a657e2...
+ done. [Time: 905.993213 ms] 
+Updating Packages/com.unity.package-manager-ui/Editor/Resources/Images/Dark/loading.png - GUID: 3cf132d4fa07f4f0cb2883499c5c7dd0...
+ done. [Time: 304.616209 ms] 
+Updating Packages/com.unity.package-manager-ui/Editor/Resources/Images/Light/error.png - GUID: 4c433abcdb28444ebb7bd395ba5c76fc...
+ done. [Time: 231.230205 ms] 
+Updating Packages/com.unity.package-manager-ui/Editor/Resources/Images/Dark/download.png - GUID: 4dfd3f5da88944ec6ac5977d676c30c6...
+ done. [Time: 161.894256 ms] 
+Updating Packages/com.unity.package-manager-ui/Editor/Resources/Images/Dark/error.png - GUID: acc34040a66fe4170bc8885268860cfe...
+ done. [Time: 199.847931 ms] 
+Updating Packages/com.unity.package-manager-ui/Editor/Resources/Images/Light/download.png - GUID: f8eca3a711f4842eba0c52ea9885ef7f...
+ done. [Time: 283.313124 ms] 
+Script Compilation Pipeline Post Process Assets time: 0.000442s
+Assembly Updater Post Process Assets time: 0.000744s
+Refreshing native plugins compatible for Editor in 0.46 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.15 ms.
+WARNING: Shader Unsupported: 'Hidden/VideoDecodeOSX' - Pass 'Flip_RGBARect_To_RGBA' has no vertex shader
+WARNING: Shader Unsupported: 'Hidden/VideoDecodeOSX' - Setting to default shader.
+WARNING: Shader Unsupported: 'Hidden/VideoDecodeAndroid' - Pass 'RGBAExternal_To_RGBA' has no vertex shader
+WARNING: Shader Unsupported: 'Hidden/VideoDecodeAndroid' - Setting to default shader.
+BuildPlayer: start building target 13
+- Starting compile Library/ScriptAssemblies/Unity.TextMeshPro.dll
+- Starting compile Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll
+- Finished compile Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll
+Symbols will be read from Temp\Unity.Analytics.DataPrivacy.pdb
+Script Module: Unity.Analytics.DataPrivacy.dll
+Pass: 0 took 54 milliseconds
+Pass: 1 took 0 milliseconds
+- Finished compile Library/ScriptAssemblies/Unity.TextMeshPro.dll
+Symbols will be read from Temp\Unity.TextMeshPro.pdb
+Script Module: Unity.TextMeshPro.dll
+Pass: 0 took 59 milliseconds
+Pass: 1 took 8 milliseconds
+DisplayProgressbar: Building AssetBundle
+- Collect Sprites to Pack : (SequentialAtlasing : 0) 
+[     45 MB ]- Grouping sprites using the selected SpritePackerPolicy.
+[     46 MB ]- Completed grouping sprites to Atlas.
+[     46 MB ]- Build Sprite Atlas. 
+[     46 MB ]- Packing 0 atlases.
+[     46 MB ]- Packing completed.
+[     46 MB ]- Update Sprites and Cleanup. 
+[     46 MB ]DisplayProgressbar: Building Asset Bundle
+
+***Player size statistics***
+Total compressed size 33.9 KB. Total uncompressed size 196.5 KB.
+Unloading 506 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 46.0 MB.
+System memory in use after: 46.1 MB.
+
+Unloading 477 unused Assets to reduce memory usage. Loaded Objects now: 991.
+Total: 23.743110 ms (FindLiveObjects: 0.438337 ms CreateObjectMapping: 0.049595 ms MarkObjects: 23.078676 ms  DeleteObjects: 0.174678 ms)
+
+- Starting compile Library/ScriptAssemblies/Unity.TextMeshPro.dll
+- Starting compile Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll
+- Starting compile Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll
+- Starting compile Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+- Finished compile Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll
+Symbols will be read from Temp\Unity.Analytics.DataPrivacy.pdb
+Script Module: Unity.Analytics.DataPrivacy.dll
+Pass: 0 took 109 milliseconds
+Pass: 1 took 0 milliseconds
+- Finished compile Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll
+- Finished compile Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+- Finished compile Library/ScriptAssemblies/Unity.TextMeshPro.dll
+Symbols will be read from Temp\Unity.TextMeshPro.pdb
+Script Module: Unity.TextMeshPro.dll
+Pass: 0 took 199 milliseconds
+Pass: 1 took 9 milliseconds
+- Starting compile Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+- Finished compile Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+- Starting compile Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+- Finished compile Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+DisplayProgressbar: Building AssetBundle
+DisplayProgressbar: Building Asset Bundle
+
+***Player size statistics***
+Total compressed size 1.0 KB. Total uncompressed size 4.2 KB.
+WARNING: Shader Unsupported: 'Hidden/VideoDecodeOSX' - Pass 'Flip_RGBARect_To_RGBA' has no vertex shader
+WARNING: Shader Unsupported: 'Hidden/VideoDecodeOSX' - Setting to default shader.
+WARNING: Shader Unsupported: 'Hidden/VideoDecodeAndroid' - Pass 'RGBAExternal_To_RGBA' has no vertex shader
+WARNING: Shader Unsupported: 'Hidden/VideoDecodeAndroid' - Setting to default shader.
+Refresh: detecting if any assets need to be imported or removed ...
+Refreshing native plugins compatible for Editor in 3.06 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.14 ms.
+Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.24 ms.
+
+Refresh Completed time: 0.100723s
+	Asset Scan time: 0.019348s
+	Asset Hashing: 0.000000s [0 B, 0.000000 mb/s]
+	Asset Import (Scripting) time: 0.000000s (count: 0)
+	Post Processs Assets (Scripting) time: 0.000000s
+	Asset Rehashing: 0.000000s [0 B, 0.000000 mb/s]
+	Asset Import (Non Scripting) time: 0.000000s (count: 0)
+	Post Process Assets (Non Scripting) time: 0.000000s
+	Dependent Assets to Import Queue time: 0.000000s
+
+Determining assets that need to be reimported for target platform ... 0.161425 seconds.
+
+Hashing assets (31 files)... 0.013 seconds
+  file read: 0.003 seconds (1.491 MB)
+  wait for write: 0.000 seconds (I/O thread blocked by consumer, aka CPU bound)
+  wait for read: 0.007 seconds (CPUT thread waiting for I/O thread, aka disk bound)
+  hash: 0.003 seconds
+
+Hashing assets (6 files)... 0.002 seconds
+  file read: 0.000 seconds (0.320 MB)
+  wait for write: 0.000 seconds (I/O thread blocked by consumer, aka CPU bound)
+  wait for read: 0.001 seconds (CPUT thread waiting for I/O thread, aka disk bound)
+  hash: 0.001 seconds
+Updating Packages/com.unity.package-manager-ui/Editor/Resources/Images/Light/loading.png - GUID: 01e02995805eb483690380a911a657e2...
+ done. [Time: 130.778558 ms] 
+Updating Packages/com.unity.package-manager-ui/Editor/Resources/Images/Dark/loading.png - GUID: 3cf132d4fa07f4f0cb2883499c5c7dd0...
+ done. [Time: 85.570448 ms] 
+Updating Packages/com.unity.package-manager-ui/Editor/Resources/Images/Light/error.png - GUID: 4c433abcdb28444ebb7bd395ba5c76fc...
+ done. [Time: 53.740721 ms] 
+Updating Packages/com.unity.package-manager-ui/Editor/Resources/Images/Dark/download.png - GUID: 4dfd3f5da88944ec6ac5977d676c30c6...
+ done. [Time: 55.497350 ms] 
+Updating Packages/com.unity.package-manager-ui/Editor/Resources/Images/Dark/error.png - GUID: acc34040a66fe4170bc8885268860cfe...
+ done. [Time: 68.159150 ms] 
+Updating Packages/com.unity.package-manager-ui/Editor/Resources/Images/Light/download.png - GUID: f8eca3a711f4842eba0c52ea9885ef7f...
+ done. [Time: 58.578834 ms] 
+Script Compilation Pipeline Post Process Assets time: 0.000035s
+Assembly Updater Post Process Assets time: 0.001471s
+Refreshing native plugins compatible for Editor in 0.98 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.32 ms.
+WARNING: Shader Unsupported: 'Hidden/VideoDecodeOSX' - Pass 'Flip_RGBARect_To_RGBA' has no vertex shader
+WARNING: Shader Unsupported: 'Hidden/VideoDecodeOSX' - Setting to default shader.
+WARNING: Shader Unsupported: 'Hidden/VideoDecodeAndroid' - Pass 'RGBAExternal_To_RGBA' has no vertex shader
+WARNING: Shader Unsupported: 'Hidden/VideoDecodeAndroid' - Setting to default shader.
+Unloading 474 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 44.5 MB.
+System memory in use after: 44.6 MB.
+
+Unloading 471 unused Assets to reduce memory usage. Loaded Objects now: 993.
+Total: 38.085687 ms (FindLiveObjects: 0.475898 ms CreateObjectMapping: 0.055430 ms MarkObjects: 37.368376 ms  DeleteObjects: 0.184524 ms)
+
+
+-------------------------------------------------------------------------------
+Bundle Name: equaÇÃo
+Compressed Size:33.9 kb
+Uncompressed usage by category (Percentages based on user generated assets only):
+Textures               0.0 kb	 0.0% 
+Meshes                 0.0 kb	 0.0% 
+Animations             180.6 kb	 91.9% 
+Sounds                 0.0 kb	 0.0% 
+Shaders                0.0 kb	 0.0% 
+Other Assets           0.1 kb	 0.1% 
+Levels                 0.0 kb	 0.0% 
+Scripts                0.0 kb	 0.0% 
+Included DLLs          0.0 kb	 0.0% 
+File headers           15.8 kb	 8.0% 
+Total User Assets      196.5 kb	 100.0% 
+Complete build size    196.5 kb
+Used Assets and files from the Resources folder, sorted by uncompressed size:
+ 180.6 kb	 91.9% Assets/Anims/EQUAÇÃO.anim
+ 0.1 kb	 0.1% AssetBundle Object
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+Bundle Name: Comuns
+Compressed Size:1.0 kb
+Uncompressed usage by category (Percentages based on user generated assets only):
+Textures               0.0 kb	 0.0% 
+Meshes                 0.0 kb	 0.0% 
+Animations             0.0 kb	 0.0% 
+Sounds                 0.0 kb	 0.0% 
+Shaders                0.0 kb	 0.0% 
+Other Assets           0.2 kb	 4.6% 
+Levels                 0.0 kb	 0.0% 
+Scripts                0.0 kb	 0.0% 
+Included DLLs          0.0 kb	 0.0% 
+File headers           4.0 kb	 95.4% 
+Total User Assets      4.2 kb	 100.0% 
+Complete build size    4.2 kb
+Used Assets and files from the Resources folder, sorted by uncompressed size:
+ 0.1 kb	 2.7% AssetBundle Object
+ 0.1 kb	 1.9% Built-in AssetBundleManifest: AssetBundleManifest
+-------------------------------------------------------------------------------
+14. Building Assets/Anims/EQUAÇÃO.anim to Bundles/WEBGL/Comuns/EQUAÇÃO
+UnityEngine.DebugLogHandler:Internal_Log()
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+BlendToBundlesConverter:log(String) (at Assets\Scripts\Editor\BlendToBundlesConverter.cs:293)
+BlendToBundlesConverter:buildBundle(String, String, String, BuildTarget) (at Assets\Scripts\Editor\BlendToBundlesConverter.cs:274)
+BlendToBundlesConverter:buildBundles() (at Assets\Scripts\Editor\BlendToBundlesConverter.cs:250)
+BlendToBundlesConverter:convert() (at Assets\Scripts\Editor\BlendToBundlesConverter.cs:224)
+ 
+(Filename: Assets/Scripts/Editor/BlendToBundlesConverter.cs Line: 293)
+
+WARNING: Shader Unsupported: 'Hidden/VideoDecodeOSX' - Pass 'Flip_RGBARect_To_RGBA' has no vertex shader
+WARNING: Shader Unsupported: 'Hidden/VideoDecodeOSX' - Setting to default shader.
+WARNING: Shader Unsupported: 'Hidden/VideoDecodeAndroid' - Pass 'RGBAExternal_To_RGBA' has no vertex shader
+WARNING: Shader Unsupported: 'Hidden/VideoDecodeAndroid' - Setting to default shader.
+Refresh: detecting if any assets need to be imported or removed ...
+Refreshing native plugins compatible for Editor in 3.36 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.15 ms.
+Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.19 ms.
+
+Refresh Completed time: 0.137893s
+	Asset Scan time: 0.033545s
+	Asset Hashing: 0.000000s [0 B, 0.000000 mb/s]
+	Asset Import (Scripting) time: 0.000000s (count: 0)
+	Post Processs Assets (Scripting) time: 0.000000s
+	Asset Rehashing: 0.000000s [0 B, 0.000000 mb/s]
+	Asset Import (Non Scripting) time: 0.000000s (count: 0)
+	Post Process Assets (Non Scripting) time: 0.000000s
+	Dependent Assets to Import Queue time: 0.000000s
+
+Determining assets that need to be reimported for target platform ... 0.151344 seconds.
+
+Hashing assets (37 files)... 0.009 seconds
+  file read: 0.002 seconds (1.811 MB)
+  wait for write: 0.000 seconds (I/O thread blocked by consumer, aka CPU bound)
+  wait for read: 0.004 seconds (CPUT thread waiting for I/O thread, aka disk bound)
+  hash: 0.003 seconds
+Refreshing native plugins compatible for Editor in 0.80 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.25 ms.
+WARNING: Shader Unsupported: 'Hidden/VideoDecodeOSX' - Pass 'Flip_RGBARect_To_RGBA' has no vertex shader
+WARNING: Shader Unsupported: 'Hidden/VideoDecodeOSX' - Setting to default shader.
+WARNING: Shader Unsupported: 'Hidden/VideoDecodeAndroid' - Pass 'RGBAExternal_To_RGBA' has no vertex shader
+WARNING: Shader Unsupported: 'Hidden/VideoDecodeAndroid' - Setting to default shader.
+BuildPlayer: start building target 20
+- Starting compile Library/ScriptAssemblies/Unity.TextMeshPro.dll
+- Starting compile Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll
+- Finished compile Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll
+Symbols will be read from Temp\Unity.Analytics.DataPrivacy.pdb
+Script Module: Unity.Analytics.DataPrivacy.dll
+Pass: 0 took 55 milliseconds
+Pass: 1 took 0 milliseconds
+- Finished compile Library/ScriptAssemblies/Unity.TextMeshPro.dll
+Symbols will be read from Temp\Unity.TextMeshPro.pdb
+Script Module: Unity.TextMeshPro.dll
+Pass: 0 took 72 milliseconds
+Pass: 1 took 9 milliseconds
+Library\PackageCache\com.unity.analytics@3.2.2\DataPrivacy\DataPrivacyButton.cs(28,13): warning CS0618: 'Application.ExternalEval(string)' is obsolete: 'Application.ExternalEval is deprecated. See https://docs.unity3d.com/Manual/webgl-interactingwithbrowserscripting.html for alternatives.'
+ 
+(Filename: Library\PackageCache\com.unity.analytics@3.2.2\DataPrivacy\DataPrivacyButton.cs Line: 28)
+
+DisplayProgressbar: Building AssetBundle
+- Collect Sprites to Pack : (SequentialAtlasing : 0) 
+[     44 MB ]- Grouping sprites using the selected SpritePackerPolicy.
+[     45 MB ]- Completed grouping sprites to Atlas.
+[     45 MB ]- Build Sprite Atlas. 
+[     45 MB ]- Packing 0 atlases.
+[     45 MB ]- Packing completed.
+[     45 MB ]- Update Sprites and Cleanup. 
+[     45 MB ]DisplayProgressbar: Building Asset Bundle
+
+***Player size statistics***
+Total compressed size 53.4 KB. Total uncompressed size 196.5 KB.
+Unloading 505 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 45.6 MB.
+System memory in use after: 45.8 MB.
+
+Unloading 471 unused Assets to reduce memory usage. Loaded Objects now: 987.
+Total: 27.848231 ms (FindLiveObjects: 0.503613 ms CreateObjectMapping: 0.059442 ms MarkObjects: 27.078042 ms  DeleteObjects: 0.204946 ms)
+
+- Starting compile Library/ScriptAssemblies/Unity.TextMeshPro.dll
+- Starting compile Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll
+- Starting compile Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll
+- Starting compile Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+- Finished compile Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll
+Symbols will be read from Temp\Unity.Analytics.DataPrivacy.pdb
+Script Module: Unity.Analytics.DataPrivacy.dll
+Pass: 0 took 61 milliseconds
+Pass: 1 took 0 milliseconds
+- Finished compile Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll
+- Finished compile Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+- Finished compile Library/ScriptAssemblies/Unity.TextMeshPro.dll
+Symbols will be read from Temp\Unity.TextMeshPro.pdb
+Script Module: Unity.TextMeshPro.dll
+Pass: 0 took 78 milliseconds
+Pass: 1 took 12 milliseconds
+- Starting compile Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+- Finished compile Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+- Starting compile Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+- Finished compile Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+DisplayProgressbar: Building AssetBundle
+DisplayProgressbar: Building Asset Bundle
+
+***Player size statistics***
+Total compressed size 1.5 KB. Total uncompressed size 4.2 KB.
+WARNING: Shader Unsupported: 'Hidden/VideoDecodeOSX' - Pass 'Flip_RGBARect_To_RGBA' has no vertex shader
+WARNING: Shader Unsupported: 'Hidden/VideoDecodeOSX' - Setting to default shader.
+WARNING: Shader Unsupported: 'Hidden/VideoDecodeAndroid' - Pass 'RGBAExternal_To_RGBA' has no vertex shader
+WARNING: Shader Unsupported: 'Hidden/VideoDecodeAndroid' - Setting to default shader.
+Refresh: detecting if any assets need to be imported or removed ...
+Refreshing native plugins compatible for Editor in 97.83 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.24 ms.
+Refreshing native plugins compatible for Editor in 0.71 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.25 ms.
+
+Refresh Completed time: 0.248998s
+	Asset Scan time: 0.018845s
+	Asset Hashing: 0.000000s [0 B, 0.000000 mb/s]
+	Asset Import (Scripting) time: 0.000000s (count: 0)
+	Post Processs Assets (Scripting) time: 0.000000s
+	Asset Rehashing: 0.000000s [0 B, 0.000000 mb/s]
+	Asset Import (Non Scripting) time: 0.000000s (count: 0)
+	Post Process Assets (Non Scripting) time: 0.000000s
+	Dependent Assets to Import Queue time: 0.000000s
+
+Determining assets that need to be reimported for target platform ... DisplayProgressbar: Hold on..
+8.041918 seconds.
+
+Hashing assets (37 files)... 0.420 seconds
+  file read: 0.003 seconds (1.811 MB)
+  wait for write: 0.000 seconds (I/O thread blocked by consumer, aka CPU bound)
+  wait for read: 0.412 seconds (CPUT thread waiting for I/O thread, aka disk bound)
+  hash: 0.005 seconds
+Refreshing native plugins compatible for Editor in 0.97 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.35 ms.
+WARNING: Shader Unsupported: 'Hidden/VideoDecodeOSX' - Pass 'Flip_RGBARect_To_RGBA' has no vertex shader
+WARNING: Shader Unsupported: 'Hidden/VideoDecodeOSX' - Setting to default shader.
+WARNING: Shader Unsupported: 'Hidden/VideoDecodeAndroid' - Pass 'RGBAExternal_To_RGBA' has no vertex shader
+WARNING: Shader Unsupported: 'Hidden/VideoDecodeAndroid' - Setting to default shader.
+Unloading 467 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 44.1 MB.
+System memory in use after: 44.2 MB.
+
+Unloading 465 unused Assets to reduce memory usage. Loaded Objects now: 989.
+Total: 23.015588 ms (FindLiveObjects: 0.488297 ms CreateObjectMapping: 0.066370 ms MarkObjects: 22.350425 ms  DeleteObjects: 0.109037 ms)
+
+
+-------------------------------------------------------------------------------
+Bundle Name: equaÇÃo
+Compressed Size:53.4 kb
+Uncompressed usage by category (Percentages based on user generated assets only):
+Textures               0.0 kb	 0.0% 
+Meshes                 0.0 kb	 0.0% 
+Animations             180.6 kb	 91.9% 
+Sounds                 0.0 kb	 0.0% 
+Shaders                0.0 kb	 0.0% 
+Other Assets           0.1 kb	 0.1% 
+Levels                 0.0 kb	 0.0% 
+Scripts                0.0 kb	 0.0% 
+Included DLLs          0.0 kb	 0.0% 
+File headers           15.8 kb	 8.0% 
+Total User Assets      196.5 kb	 100.0% 
+Complete build size    196.5 kb
+Used Assets and files from the Resources folder, sorted by uncompressed size:
+ 180.6 kb	 91.9% Assets/Anims/EQUAÇÃO.anim
+ 0.1 kb	 0.1% AssetBundle Object
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+Bundle Name: Comuns
+Compressed Size:1.5 kb
+Uncompressed usage by category (Percentages based on user generated assets only):
+Textures               0.0 kb	 0.0% 
+Meshes                 0.0 kb	 0.0% 
+Animations             0.0 kb	 0.0% 
+Sounds                 0.0 kb	 0.0% 
+Shaders                0.0 kb	 0.0% 
+Other Assets           0.2 kb	 4.6% 
+Levels                 0.0 kb	 0.0% 
+Scripts                0.0 kb	 0.0% 
+Included DLLs          0.0 kb	 0.0% 
+File headers           4.0 kb	 95.4% 
+Total User Assets      4.2 kb	 100.0% 
+Complete build size    4.2 kb
+Used Assets and files from the Resources folder, sorted by uncompressed size:
+ 0.1 kb	 2.7% AssetBundle Object
+ 0.1 kb	 1.9% Built-in AssetBundleManifest: AssetBundleManifest
+-------------------------------------------------------------------------------
+15. Building Assets/Anims/EQUAÇÃO.anim to Bundles/IOS/Comuns/EQUAÇÃO
+UnityEngine.DebugLogHandler:Internal_Log()
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+BlendToBundlesConverter:log(String) (at Assets\Scripts\Editor\BlendToBundlesConverter.cs:293)
+BlendToBundlesConverter:buildBundle(String, String, String, BuildTarget) (at Assets\Scripts\Editor\BlendToBundlesConverter.cs:274)
+BlendToBundlesConverter:buildBundles() (at Assets\Scripts\Editor\BlendToBundlesConverter.cs:251)
+BlendToBundlesConverter:convert() (at Assets\Scripts\Editor\BlendToBundlesConverter.cs:224)
+ 
+(Filename: Assets/Scripts/Editor/BlendToBundlesConverter.cs Line: 293)
+
+WARNING: Shader Unsupported: 'Hidden/VideoDecodeOSX' - Pass 'Flip_RGBARect_To_RGBA' has no vertex shader
+WARNING: Shader Unsupported: 'Hidden/VideoDecodeOSX' - Setting to default shader.
+WARNING: Shader Unsupported: 'Hidden/VideoDecodeAndroid' - Pass 'RGBAExternal_To_RGBA' has no vertex shader
+WARNING: Shader Unsupported: 'Hidden/VideoDecodeAndroid' - Setting to default shader.
+Refresh: detecting if any assets need to be imported or removed ...
+Refreshing native plugins compatible for Editor in 3.38 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.15 ms.
+Refreshing native plugins compatible for Editor in 1.67 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.51 ms.
+
+Refresh Completed time: 0.133659s
+	Asset Scan time: 0.019823s
+	Asset Hashing: 0.000000s [0 B, 0.000000 mb/s]
+	Asset Import (Scripting) time: 0.000000s (count: 0)
+	Post Processs Assets (Scripting) time: 0.000000s
+	Asset Rehashing: 0.000000s [0 B, 0.000000 mb/s]
+	Asset Import (Non Scripting) time: 0.000000s (count: 0)
+	Post Process Assets (Non Scripting) time: 0.000000s
+	Dependent Assets to Import Queue time: 0.000000s
+
+Determining assets that need to be reimported for target platform ... 0.255973 seconds.
+
+Hashing assets (31 files)... 0.008 seconds
+  file read: 0.002 seconds (1.491 MB)
+  wait for write: 0.000 seconds (I/O thread blocked by consumer, aka CPU bound)
+  wait for read: 0.003 seconds (CPUT thread waiting for I/O thread, aka disk bound)
+  hash: 0.003 seconds
+
+Hashing assets (6 files)... 0.002 seconds
+  file read: 0.000 seconds (0.320 MB)
+  wait for write: 0.000 seconds (I/O thread blocked by consumer, aka CPU bound)
+  wait for read: 0.001 seconds (CPUT thread waiting for I/O thread, aka disk bound)
+  hash: 0.001 seconds
+Updating Packages/com.unity.package-manager-ui/Editor/Resources/Images/Light/loading.png - GUID: 01e02995805eb483690380a911a657e2...
+ done. [Time: 81.258923 ms] 
+Updating Packages/com.unity.package-manager-ui/Editor/Resources/Images/Dark/loading.png - GUID: 3cf132d4fa07f4f0cb2883499c5c7dd0...
+ done. [Time: 116.075319 ms] 
+Updating Packages/com.unity.package-manager-ui/Editor/Resources/Images/Light/error.png - GUID: 4c433abcdb28444ebb7bd395ba5c76fc...
+ done. [Time: 429.110363 ms] 
+Updating Packages/com.unity.package-manager-ui/Editor/Resources/Images/Dark/download.png - GUID: 4dfd3f5da88944ec6ac5977d676c30c6...
+ done. [Time: 166.456676 ms] 
+Updating Packages/com.unity.package-manager-ui/Editor/Resources/Images/Dark/error.png - GUID: acc34040a66fe4170bc8885268860cfe...
+ done. [Time: 277.830635 ms] 
+Updating Packages/com.unity.package-manager-ui/Editor/Resources/Images/Light/download.png - GUID: f8eca3a711f4842eba0c52ea9885ef7f...
+ done. [Time: 120.320474 ms] 
+Script Compilation Pipeline Post Process Assets time: 0.000029s
+Assembly Updater Post Process Assets time: 0.001933s
+Refreshing native plugins compatible for Editor in 1.02 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.33 ms.
+WARNING: Shader Unsupported: 'Hidden/VideoDecodeOSX' - Pass 'Flip_RGBARect_To_RGBA' has no vertex shader
+WARNING: Shader Unsupported: 'Hidden/VideoDecodeOSX' - Setting to default shader.
+WARNING: Shader Unsupported: 'Hidden/VideoDecodeAndroid' - Pass 'RGBAExternal_To_RGBA' has no vertex shader
+WARNING: Shader Unsupported: 'Hidden/VideoDecodeAndroid' - Setting to default shader.
+BuildPlayer: start building target 9
+- Starting compile Library/ScriptAssemblies/Unity.TextMeshPro.dll
+- Starting compile Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll
+- Finished compile Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll
+Symbols will be read from Temp\Unity.Analytics.DataPrivacy.pdb
+Script Module: Unity.Analytics.DataPrivacy.dll
+Pass: 0 took 65 milliseconds
+Pass: 1 took 0 milliseconds
+- Finished compile Library/ScriptAssemblies/Unity.TextMeshPro.dll
+Symbols will be read from Temp\Unity.TextMeshPro.pdb
+Script Module: Unity.TextMeshPro.dll
+Pass: 0 took 45 milliseconds
+Pass: 1 took 8 milliseconds
+DisplayProgressbar: Building AssetBundle
+- Collect Sprites to Pack : (SequentialAtlasing : 0) 
+[     45 MB ]- Grouping sprites using the selected SpritePackerPolicy.
+[     46 MB ]- Completed grouping sprites to Atlas.
+[     46 MB ]- Build Sprite Atlas. 
+[     46 MB ]- Packing 0 atlases.
+[     46 MB ]- Packing completed.
+[     46 MB ]- Update Sprites and Cleanup. 
+[     46 MB ]DisplayProgressbar: Building Asset Bundle
+
+***Player size statistics***
+Total compressed size 33.9 KB. Total uncompressed size 196.5 KB.
+Unloading 506 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 46.0 MB.
+System memory in use after: 46.2 MB.
+
+Unloading 477 unused Assets to reduce memory usage. Loaded Objects now: 991.
+Total: 27.835832 ms (FindLiveObjects: 0.765448 ms CreateObjectMapping: 0.053607 ms MarkObjects: 26.854497 ms  DeleteObjects: 0.160821 ms)
+
+- Starting compile Library/ScriptAssemblies/Unity.TextMeshPro.dll
+- Starting compile Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll
+- Starting compile Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll
+- Starting compile Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+- Finished compile Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll
+Symbols will be read from Temp\Unity.Analytics.DataPrivacy.pdb
+Script Module: Unity.Analytics.DataPrivacy.dll
+Pass: 0 took 105 milliseconds
+Pass: 1 took 0 milliseconds
+- Finished compile Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+- Finished compile Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll
+- Finished compile Library/ScriptAssemblies/Unity.TextMeshPro.dll
+Symbols will be read from Temp\Unity.TextMeshPro.pdb
+Script Module: Unity.TextMeshPro.dll
+Pass: 0 took 89 milliseconds
+Pass: 1 took 14 milliseconds
+- Starting compile Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+- Finished compile Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+- Starting compile Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+- Finished compile Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+DisplayProgressbar: Building AssetBundle
+DisplayProgressbar: Building Asset Bundle
+
+***Player size statistics***
+Total compressed size 1.0 KB. Total uncompressed size 4.2 KB.
+WARNING: Shader Unsupported: 'Hidden/VideoDecodeOSX' - Pass 'Flip_RGBARect_To_RGBA' has no vertex shader
+WARNING: Shader Unsupported: 'Hidden/VideoDecodeOSX' - Setting to default shader.
+WARNING: Shader Unsupported: 'Hidden/VideoDecodeAndroid' - Pass 'RGBAExternal_To_RGBA' has no vertex shader
+WARNING: Shader Unsupported: 'Hidden/VideoDecodeAndroid' - Setting to default shader.
+Refresh: detecting if any assets need to be imported or removed ...
+Refreshing native plugins compatible for Editor in 4.84 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.21 ms.
+Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.23 ms.
+
+Refresh Completed time: 0.129620s
+	Asset Scan time: 0.021876s
+	Asset Hashing: 0.000000s [0 B, 0.000000 mb/s]
+	Asset Import (Scripting) time: 0.000000s (count: 0)
+	Post Processs Assets (Scripting) time: 0.000000s
+	Asset Rehashing: 0.000000s [0 B, 0.000000 mb/s]
+	Asset Import (Non Scripting) time: 0.000000s (count: 0)
+	Post Process Assets (Non Scripting) time: 0.000000s
+	Dependent Assets to Import Queue time: 0.000000s
+
+Determining assets that need to be reimported for target platform ... 0.200826 seconds.
+
+Hashing assets (31 files)... 0.007 seconds
+  file read: 0.002 seconds (1.491 MB)
+  wait for write: 0.000 seconds (I/O thread blocked by consumer, aka CPU bound)
+  wait for read: 0.003 seconds (CPUT thread waiting for I/O thread, aka disk bound)
+  hash: 0.002 seconds
+
+Hashing assets (6 files)... 0.002 seconds
+  file read: 0.000 seconds (0.320 MB)
+  wait for write: 0.000 seconds (I/O thread blocked by consumer, aka CPU bound)
+  wait for read: 0.001 seconds (CPUT thread waiting for I/O thread, aka disk bound)
+  hash: 0.001 seconds
+Updating Packages/com.unity.package-manager-ui/Editor/Resources/Images/Light/loading.png - GUID: 01e02995805eb483690380a911a657e2...
+ done. [Time: 61.315338 ms] 
+Updating Packages/com.unity.package-manager-ui/Editor/Resources/Images/Dark/loading.png - GUID: 3cf132d4fa07f4f0cb2883499c5c7dd0...
+ done. [Time: 71.089296 ms] 
+Updating Packages/com.unity.package-manager-ui/Editor/Resources/Images/Light/error.png - GUID: 4c433abcdb28444ebb7bd395ba5c76fc...
+ done. [Time: 115.383900 ms] 
+Updating Packages/com.unity.package-manager-ui/Editor/Resources/Images/Dark/download.png - GUID: 4dfd3f5da88944ec6ac5977d676c30c6...
+ done. [Time: 60.987862 ms] 
+Updating Packages/com.unity.package-manager-ui/Editor/Resources/Images/Dark/error.png - GUID: acc34040a66fe4170bc8885268860cfe...
+ done. [Time: 36.946814 ms] 
+Updating Packages/com.unity.package-manager-ui/Editor/Resources/Images/Light/download.png - GUID: f8eca3a711f4842eba0c52ea9885ef7f...
+ done. [Time: 29.450602 ms] 
+Script Compilation Pipeline Post Process Assets time: 0.000031s
+Assembly Updater Post Process Assets time: 0.001138s
+Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.21 ms.
+WARNING: Shader Unsupported: 'Hidden/VideoDecodeOSX' - Pass 'Flip_RGBARect_To_RGBA' has no vertex shader
+WARNING: Shader Unsupported: 'Hidden/VideoDecodeOSX' - Setting to default shader.
+WARNING: Shader Unsupported: 'Hidden/VideoDecodeAndroid' - Pass 'RGBAExternal_To_RGBA' has no vertex shader
+WARNING: Shader Unsupported: 'Hidden/VideoDecodeAndroid' - Setting to default shader.
+Unloading 474 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 44.5 MB.
+System memory in use after: 44.6 MB.
+
+Unloading 471 unused Assets to reduce memory usage. Loaded Objects now: 993.
+Total: 36.273993 ms (FindLiveObjects: 0.590040 ms CreateObjectMapping: 0.113049 ms MarkObjects: 35.434152 ms  DeleteObjects: 0.134200 ms)
+
+
+-------------------------------------------------------------------------------
+Bundle Name: equaÇÃo
+Compressed Size:33.9 kb
+Uncompressed usage by category (Percentages based on user generated assets only):
+Textures               0.0 kb	 0.0% 
+Meshes                 0.0 kb	 0.0% 
+Animations             180.6 kb	 91.9% 
+Sounds                 0.0 kb	 0.0% 
+Shaders                0.0 kb	 0.0% 
+Other Assets           0.1 kb	 0.1% 
+Levels                 0.0 kb	 0.0% 
+Scripts                0.0 kb	 0.0% 
+Included DLLs          0.0 kb	 0.0% 
+File headers           15.8 kb	 8.0% 
+Total User Assets      196.5 kb	 100.0% 
+Complete build size    196.5 kb
+Used Assets and files from the Resources folder, sorted by uncompressed size:
+ 180.6 kb	 91.9% Assets/Anims/EQUAÇÃO.anim
+ 0.1 kb	 0.1% AssetBundle Object
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+Bundle Name: Comuns
+Compressed Size:1.0 kb
+Uncompressed usage by category (Percentages based on user generated assets only):
+Textures               0.0 kb	 0.0% 
+Meshes                 0.0 kb	 0.0% 
+Animations             0.0 kb	 0.0% 
+Sounds                 0.0 kb	 0.0% 
+Shaders                0.0 kb	 0.0% 
+Other Assets           0.2 kb	 4.6% 
+Levels                 0.0 kb	 0.0% 
+Scripts                0.0 kb	 0.0% 
+Included DLLs          0.0 kb	 0.0% 
+File headers           4.0 kb	 95.4% 
+Total User Assets      4.2 kb	 100.0% 
+Complete build size    4.2 kb
+Used Assets and files from the Resources folder, sorted by uncompressed size:
+ 0.1 kb	 2.7% AssetBundle Object
+ 0.1 kb	 1.9% Built-in AssetBundleManifest: AssetBundleManifest
+-------------------------------------------------------------------------------
+Batchmode quit successfully invoked - shutting down!
+[Performance] CurlRequestCheck                        :       13 samples, Peak.  54.7 us (2.4x), Avg.  22.9 us, Total. 298.3 us (0.0%)
+[Performance] PackageManager::RunRequestSynchronously :       10 samples, Peak.  49.2 us (2.4x), Avg.  20.7 us, Total. 207.5 us (0.0%)
+Refresh: detecting if any assets need to be imported or removed ...
+Refreshing native plugins compatible for Editor in 7.21 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.15 ms.
+Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.17 ms.
+
+Refresh Completed time: 0.169471s
+	Asset Scan time: 0.033309s
+	Asset Hashing: 0.000000s [0 B, 0.000000 mb/s]
+	Asset Import (Scripting) time: 0.000000s (count: 0)
+	Post Processs Assets (Scripting) time: 0.000000s
+	Asset Rehashing: 0.000000s [0 B, 0.000000 mb/s]
+	Asset Import (Non Scripting) time: 0.000000s (count: 0)
+	Post Process Assets (Non Scripting) time: 0.000000s
+	Dependent Assets to Import Queue time: 0.000000s
+
+Refresh: detecting if any assets need to be imported or removed ...
+Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.16 ms.
+Refreshing native plugins compatible for Editor in 0.72 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.23 ms.
+
+Refresh Completed time: 0.072967s
+	Asset Scan time: 0.017991s
+	Asset Hashing: 0.000000s [0 B, 0.000000 mb/s]
+	Asset Import (Scripting) time: 0.000000s (count: 0)
+	Post Processs Assets (Scripting) time: 0.000000s
+	Asset Rehashing: 0.000000s [0 B, 0.000000 mb/s]
+	Asset Import (Non Scripting) time: 0.000000s (count: 0)
+	Post Process Assets (Non Scripting) time: 0.000000s
+	Dependent Assets to Import Queue time: 0.000000s
+
+[Package Manager] Server::Kill -- Server was shutdown
+Cleanup mono
+Exiting batchmode successfully now!
+Exiting without the bug reporter. Application will terminate with return code 0

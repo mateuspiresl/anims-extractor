@@ -1,0 +1,16 @@
+How many assets in Assets/Blends: 66
+How many assets in Assets/Blends: 66
+Assets/Blends/EQUAÇÃO.blend
+Starting Assets/Blends/EQUAÇÃO
+3 animation clips found
+Saving Assets/Anims/EQUAÇÃO.anim
+How many assets in Assets/Anims: 1
+Building Assets/Anims/EQUAÇÃO.anim to Bundles/STANDALONE_WINDOWS/Comuns/EQUAÇÃO
+Building Assets/Anims/EQUAÇÃO.anim to Bundles/STANDALONE_WINDOWS-64/Comuns/EQUAÇÃO
+Building Assets/Anims/EQUAÇÃO.anim to Bundles/STANDALONE_LINUX/Comuns/EQUAÇÃO
+Building Assets/Anims/EQUAÇÃO.anim to Bundles/STANDALONE_LINUX-64/Comuns/EQUAÇÃO
+Building Assets/Anims/EQUAÇÃO.anim to Bundles/STANDALONE_LINUX-UNI/Comuns/EQUAÇÃO
+Building Assets/Anims/EQUAÇÃO.anim to Bundles/ANDROID/Comuns/EQUAÇÃO
+Building Assets/Anims/EQUAÇÃO.anim to Bundles/WEBGL/Comuns/EQUAÇÃO
+Building Assets/Anims/EQUAÇÃO.anim to Bundles/IOS/Comuns/EQUAÇÃO
+
